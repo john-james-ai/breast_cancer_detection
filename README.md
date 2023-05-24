@@ -1,18 +1,16 @@
-# Name of the project (will be shown e.g. as the title in the readme)
+# Breast Cancer Detection from Mammography using Deep Learning
 
 [![PyPI](https://img.shields.io/pypi/v/bcd?style=flat-square)](https://pypi.python.org/pypi/bcd/)
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/bcd?style=flat-square)](https://pypi.python.org/pypi/bcd/)
 [![PyPI - License](https://img.shields.io/pypi/l/bcd?style=flat-square)](https://pypi.python.org/pypi/bcd/)
-[![Coookiecutter - Wolt](https://img.shields.io/badge/cookiecutter-Wolt-00c2e8?style=flat-square&logo=cookiecutter&logoColor=D4AA00&link=https://github.com/woltapp/wolt-python-package-cookiecutter)](https://github.com/woltapp/wolt-python-package-cookiecutter)
-
 
 ---
 
-**Documentation**: [https://john-james-ai.github.io/bcd](https://john-james-ai.github.io/bcd)
+**Documentation**: [https://john-james-ai.github.io/b](https://john-james-ai.github.io/bcd)reast_cancer_detection
 
-**Source Code**: [https://github.com/john-james-ai/bcd](https://github.com/john-james-ai/bcd)
+**Source Code**: [https://github.com/john-james-ai/](https://github.com/john-james-ai/bcd)[b](https://john-james-ai.github.io/bcd)reast_cancer_detection
 
-**PyPI**: [https://pypi.org/project/bcd/](https://pypi.org/project/bcd/)
+**PyPI**: [https://pypi.org/project/](https://pypi.org/project/bcd/)[b](https://john-james-ai.github.io/bcd)reast_cancer_detection/
 
 ---
 

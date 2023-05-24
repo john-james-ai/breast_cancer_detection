@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "bcd"
+name = "breast_cancer_detection"
 version = "0.0.1"
 description = "Breast Cancer Detection from Mammography using Deep Learning"
 authors = [
@@ -26,8 +26,9 @@ classifiers = [
 ]
 
 packages = [
-    { include = "bcd", from = "src" }
+{include = "bcd"}
 ]
+
 
 [tool.poetry.dependencies]
 python = ">=3.7.1, <4.0"
