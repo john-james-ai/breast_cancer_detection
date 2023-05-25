@@ -1,0 +1,44 @@
+#!/usr/bin/env python3
+# -*- coding:utf-8 -*-
+# ================================================================================================ #
+# Project    : Breast Cancer Detection from Mammography using Deep Learning                        #
+# Version    : 0.1.19                                                                              #
+# Python     : 3.10.11                                                                             #
+# Filename   : /jbook/_toc.yml                                                                     #
+# ------------------------------------------------------------------------------------------------ #
+# Author     : John James                                                                          #
+# Email      : john.james.ai.studio@gmail.com                                                      #
+# URL        : https://github.com/john-james-ai/breast_cancer_detection                            #
+# ------------------------------------------------------------------------------------------------ #
+# Created    : Thursday May 25th 2023 02:01:29 am                                                  #
+# Modified   : Thursday May 25th 2023 03:05:51 am                                                  #
+# ------------------------------------------------------------------------------------------------ #
+# License    : MIT License                                                                         #
+# Copyright  : (c) 2023 John James                                                                 #
+# ================================================================================================ #
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+options:
+  numbered: 3
+  parts:
+  - caption: 1. Executive Summary
+    numbered: 3
+    chapters:
+      - file: 1_exec_summary
+  - caption: 2. Problem Statement
+    numbered: 3
+    chapters:
+      - file: 2_problem
+  - caption: 3. Solution
+    numbered: 3
+    chapters:
+      - file: 30_data
+      - file: 31_model
+      - file: 32_results
+
+  - caption: References
+    chapters:
+      - file: 99_references

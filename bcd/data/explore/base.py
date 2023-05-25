@@ -11,7 +11,7 @@
 # URL        : https://github.com/john-james-ai/breast_cancer_detection                            #
 # ------------------------------------------------------------------------------------------------ #
 # Created    : Wednesday May 24th 2023 03:13:32 pm                                                 #
-# Modified   : Thursday May 25th 2023 01:56:54 am                                                  #
+# Modified   : Thursday May 25th 2023 03:24:44 am                                                  #
 # ------------------------------------------------------------------------------------------------ #
 # License    : MIT License                                                                         #
 # Copyright  : (c) 2023 John James                                                                 #
@@ -230,6 +230,41 @@ class CancerMeta(ABC):
         handles, labels = ax2.get_legend_handles_labels()
         fig.legend(handles, labels, loc="upper left", fontsize=8)
         plt.tight_layout()
+
+    def overview(self) -> None:
+        """Overview of the Dataset"""
+        df = pd.concat([self._train, self._test], axis=0)
+        # Benign
+        benign_cases = df[df["pathology"] != "MALIGNANT"]["patient_id"].nunique()
+        benign_abs = (
+            df[df["pathology"] != "MALIGNANT"][["patient_id", "abnormality id"]]
+            .drop_duplicates()
+            .shape[0]
+        )
+        mal_cases = df[df["pathology"] == "MALIGNANT"]["patient_id"].nunique()
+        mal_abs = (
+            df[df["pathology"] == "MALIGNANT"][["patient_id", "abnormality id"]]
+            .drop_duplicates()
+            .shape[0]
+        )
+
+        d = {
+            "Pathology": ["Benign", "Benign", "Malignant", "Malignant"],
+            "Aggregate": ["Cases", "Abnormalities", "Cases", "Abnormalities"],
+            "Count": [benign_cases, benign_abs, mal_cases, mal_abs],
+        }
+        df = pd.DataFrame.from_dict(data=d, orient="columns")
+
+        canvas = VisualConfig(nrows=1, ncols=1, figsize=(12, 3)).canvas
+        ax = canvas.axs
+        ax = sns.barplot(
+            data=df,
+            x="Pathology",
+            y="Count",
+            hue="Aggregate",
+            ax=ax,
+            palette=VisualConfig.palette.blues_r,
+        )
 
     def summary(self) -> None:
         """Summarizes the number of cases and abnormalities benign and malignant."""
