@@ -1,16 +1,16 @@
 # Breast Cancer Detection from Mammography using Deep Learning
 
-[![PyPI](https://img.shields.io/pypi/v/bcd?style=flat-square)](https://pypi.python.org/pypi/bcd/)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/bcd?style=flat-square)](https://pypi.python.org/pypi/bcd/)
-[![PyPI - License](https://img.shields.io/pypi/l/bcd?style=flat-square)](https://pypi.python.org/pypi/bcd/)
+[![PyPI](https://img.shields.io/pypi/v/cadx?style=flat-square)](https://pypi.python.org/pypi/cadx/)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/cadx?style=flat-square)](https://pypi.python.org/pypi/cadx/)
+[![PyPI - License](https://img.shields.io/pypi/l/cadx?style=flat-square)](https://pypi.python.org/pypi/cadx/)
 
 ---
 
-**Documentation**: [https://john-james-ai.github.io/b](https://john-james-ai.github.io/bcd)reast_cancer_detection
+**Documentation**: [https://john-james-ai.github.io/b](https://john-james-ai.github.io/cadx)reast_cancer_detection
 
-**Source Code**: [https://github.com/john-james-ai/](https://github.com/john-james-ai/bcd)[b](https://john-james-ai.github.io/bcd)reast_cancer_detection
+**Source Code**: [https://github.com/john-james-ai/](https://github.com/john-james-ai/cadx)[b](https://john-james-ai.github.io/cadx)reast_cancer_detection
 
-**PyPI**: [https://pypi.org/project/](https://pypi.org/project/bcd/)[b](https://john-james-ai.github.io/bcd)reast_cancer_detection/
+**PyPI**: [https://pypi.org/project/](https://pypi.org/project/cadx/)[b](https://john-james-ai.github.io/cadx)reast_cancer_detection/
 
 ---
 
@@ -19,7 +19,7 @@ Breast Cancer Detection from Mammography using Deep Learning
 ## Installation
 
 ```sh
-pip install bcd
+pip install cadx
 ```
 
 ## Development
@@ -54,12 +54,12 @@ The documentation is automatically generated from the content of the [docs direc
 
 ### Releasing
 
-Trigger the [Draft release workflow](https://github.com/john-james-ai/bcd/actions/workflows/draft_release.yml)
+Trigger the [Draft release workflow](https://github.com/john-james-ai/cadx/actions/workflows/draft_release.yml)
 (press _Run workflow_). This will update the changelog & version and create a GitHub release which is in _Draft_ state.
 
 Find the draft release from the
-[GitHub releases](https://github.com/john-james-ai/bcd/releases) and publish it. When
- a release is published, it'll trigger [release](https://github.com/john-james-ai/bcd/blob/master/.github/workflows/release.yml) workflow which creates PyPI
+[GitHub releases](https://github.com/john-james-ai/cadx/releases) and publish it. When
+ a release is published, it'll trigger [release](https://github.com/john-james-ai/cadx/blob/master/.github/workflows/release.yml) workflow which creates PyPI
  release and deploys updated documentation.
 
 ### Pre-commit

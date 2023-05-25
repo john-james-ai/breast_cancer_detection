@@ -8,8 +8,8 @@
       "author_email": "john.james.ai.studio@gmail.com",
       "github_username": "john-james-ai",
       "project_name": "Name of the project (will be shown e.g. as the title in the readme)",
-      "project_slug": "bcd",
-      "package_name": "bcd",
+      "project_slug": "cadx",
+      "package_name": "cadx",
       "project_short_description": "Breast Cancer Detection from Mammography using Deep Learning",
       "_template": "https://github.com/woltapp/wolt-python-package-cookiecutter"
     }

@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "breast_cancer_detection"
+name = "cadx"
 version = "0.0.1"
 description = "Breast Cancer Detection from Mammography using Deep Learning"
 authors = [
@@ -8,9 +8,9 @@ authors = [
 license = "MIT"
 readme = "README.md"
 
-documentation = "https://john-james-ai.github.io/bcd"
-homepage = "https://john-james-ai.github.io/bcd"
-repository = "https://github.com/john-james-ai/bcd"
+documentation = "https://john-james-ai.github.io/cadx"
+homepage = "https://john-james-ai.github.io/cadx"
+repository = "https://github.com/john-james-ai/cadx"
 
 classifiers = [
   "Development Status :: 4 - Beta",
@@ -25,9 +25,7 @@ classifiers = [
   "Typing :: Typed",
 ]
 
-packages = [
-{include = "bcd"}
-]
+packages = ["cadx", "tests"]
 
 
 [tool.poetry.dependencies]
@@ -63,7 +61,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.isort]
 profile = "black"
-src_paths = ["src", "tests"]
+src_paths = ["cadx","tests"]
 
 [tool.black]
 target-version = ["py37", "py38", "py39"]
@@ -71,7 +69,7 @@ include = '\.pyi?$'
 
 [tool.pytest.ini_options]
 addopts = """\
-    --cov bcd \
+    --cov cadx \
     --cov tests \
     --cov-report term-missing \
     --no-cov-on-fail \

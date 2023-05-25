@@ -1,5 +1,5 @@
 site_name: "Name of the project (will be shown e.g. as the title in the readme)"
-repo_url: https://github.com/john-james-ai/bcd
+repo_url: https://github.com/john-james-ai/cadx
 
 theme:
   name: material
@@ -33,4 +33,4 @@ plugins:
             show_source: true
             show_submodules: true
       watch:
-        - src/bcd
+        - src/cadx
