@@ -16,8 +16,7 @@ kernelspec:
 ## CBIS-DDSM Dataset
 
 The Curated Breast Imaging Subset (CBIS) of the Digital Database for Screening Mammography (DDSM) dataset, otherwise known as the CBIS-DDSM dataset {cite} `leeCuratedMammographyData2017a` includes decompressed images, data selected and curated by trained mammographers, mass segmentation, bounding boxes, and pathological diagnoses, in Digital Imaging and Communications in Medicine (DICOM) format.
-
-```{code-cell}
+```{code-cell} python3
 from bcd.services.visual.config import VisualConfig
 from bcd.data.explore.metadata import MassMeta, CalcMeta
 ```
