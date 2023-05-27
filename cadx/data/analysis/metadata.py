@@ -4,14 +4,14 @@
 # Project    : Enter Project Name in Workspace Settings                                            #
 # Version    : 0.1.19                                                                              #
 # Python     : 3.10.11                                                                             #
-# Filename   : /cadx/data/explore/metadata.py                                                      #
+# Filename   : /cadx/data/analysis/metadata.py                                                     #
 # ------------------------------------------------------------------------------------------------ #
 # Author     : John James                                                                          #
 # Email      : john.james.ai.studio@gmail.com                                                      #
 # URL        : Enter URL in Workspace Settings                                                     #
 # ------------------------------------------------------------------------------------------------ #
 # Created    : Wednesday May 24th 2023 04:24:21 pm                                                 #
-# Modified   : Thursday May 25th 2023 05:51:32 pm                                                  #
+# Modified   : Friday May 26th 2023 08:56:44 pm                                                    #
 # ------------------------------------------------------------------------------------------------ #
 # License    : MIT License                                                                         #
 # Copyright  : (c) 2023 John James                                                                 #
@@ -20,7 +20,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
 
-from cadx.data.explore.base import CancerMeta
+from cadx.data.analysis.visualize import CancerMeta
 from cadx.services.visual.config import VisualConfig
 
 sns.set_style(VisualConfig.style)
@@ -157,11 +157,17 @@ class CalcMeta(CancerMeta):
         df1 = self.pathology_calc_type(ax1)
         df2 = self.pathology_calc_distribution(ax2)
 
-        df1 = df1[["Pathology", "Calcification Type", "Count"]].sort_values(
-            by=["Pathology", "Count"], ascending=False
+        df1 = (
+            df1[["Pathology", "Calcification Type", "Count"]]
+            .sort_values(by=["Pathology", "Count"], ascending=False)
+            .set_index("Pathology", drop=True)
+            .drop_duplicates()
         )
-        df2 = df2[["Pathology", "Calcification Distribution", "Count"]].sort_values(
-            by=["Pathology", "Count"], ascending=False
+        df2 = (
+            df2[["Pathology", "Calcification Distribution", "Count"]]
+            .sort_values(by=["Pathology", "Count"], ascending=False)
+            .set_index("Pathology", drop=True)
+            .drop_duplicates()
         )
 
         return df1, df2
