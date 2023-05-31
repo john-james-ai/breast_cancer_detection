@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+    ],
+    "settings": {
+        "psi-header.variables": [
+
+            ["projectCreationYear", "2023"],
+            ["url", "https://github.com/john-james-ai/breast_cancer_detection"],
+            ["projectname", "Deep Learning Methods for Breast Cancer Detection"],
+            ["version", "0.1.0"],
+            ["pythonversion","3.10.11"]
+        ],
+
+    }
+}

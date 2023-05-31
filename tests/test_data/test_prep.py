@@ -11,7 +11,7 @@
 # URL        : Enter URL in Workspace Settings                                                     #
 # ------------------------------------------------------------------------------------------------ #
 # Created    : Thursday May 25th 2023 07:41:39 am                                                  #
-# Modified   : Thursday May 25th 2023 12:52:03 pm                                                  #
+# Modified   : Wednesday May 31st 2023 12:21:59 am                                                 #
 # ------------------------------------------------------------------------------------------------ #
 # License    : MIT License                                                                         #
 # Copyright  : (c) 2023 John James                                                                 #
@@ -22,7 +22,7 @@ import pytest
 import logging
 import pandas as pd
 
-from cadx.data.prep.metadata import ColumnTransformer
+from bcd.data.prep.metadata import ColumnTransformer
 
 
 # ------------------------------------------------------------------------------------------------ #

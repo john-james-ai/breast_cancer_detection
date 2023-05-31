@@ -1,17 +1,17 @@
 #!/usr/bin/env python3
 # -*- coding:utf-8 -*-
 # ================================================================================================ #
-# Project    : Enter Project Name in Workspace Settings                                            #
-# Version    : 0.1.19                                                                              #
+# Project    : Deep Learning Methods for Breast Cancer Detection                                   #
+# Version    : 0.1.0                                                                               #
 # Python     : 3.10.11                                                                             #
-# Filename   : /cadx/data/explore/visualize.py                                                     #
+# Filename   : /bcd/data/analysis/visualize.py                                                     #
 # ------------------------------------------------------------------------------------------------ #
 # Author     : John James                                                                          #
 # Email      : john.james.ai.studio@gmail.com                                                      #
-# URL        : Enter URL in Workspace Settings                                                     #
+# URL        : https://github.com/john-james-ai/breast_cancer_detection                            #
 # ------------------------------------------------------------------------------------------------ #
 # Created    : Wednesday May 24th 2023 03:13:32 pm                                                 #
-# Modified   : Friday May 26th 2023 06:05:02 pm                                                    #
+# Modified   : Wednesday May 31st 2023 12:30:49 am                                                 #
 # ------------------------------------------------------------------------------------------------ #
 # License    : MIT License                                                                         #
 # Copyright  : (c) 2023 John James                                                                 #
@@ -22,9 +22,9 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-from cadx.data.repo.base import Repo
-from cadx.services.visual.config import VisualConfig
-from cadx.services.io.file import IOService
+from bcd.data.repo.base import Repo
+from bcd.services.visual.config import VisualConfig
+from bcd.services.io.file import IOService
 
 sns.set_style(VisualConfig.style)
 sns.set_palette = sns.dark_palette(VisualConfig.palette.blue, reverse=True, as_cmap=True)

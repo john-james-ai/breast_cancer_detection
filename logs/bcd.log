@@ -1,0 +1,374 @@
+[05/31/2023 01:11:40 AM] [INFO] [test_repo] [test_repo] [test_setup] : 
+
+Started TestRepo test_setup at 01:11:40 AM on 05/31/2023
+[05/31/2023 01:11:40 AM] [INFO] [test_repo] [test_repo] [test_setup] : 
+====================================================================================================
+[05/31/2023 01:11:40 AM] [INFO] [test_repo] [test_repo] [test_setup] : 
+Completed TestRepo test_setup in 0.1 seconds at 01:11:40 AM on 05/31/2023
+[05/31/2023 01:11:40 AM] [INFO] [test_repo] [test_repo] [test_setup] : 
+----------------------------------------------------------------------------------------------------
+[05/31/2023 01:11:40 AM] [INFO] [test_repo] [test_repo] [test_registry] : 
+
+Started TestRepo test_registry at 01:11:40 AM on 05/31/2023
+[05/31/2023 01:11:40 AM] [INFO] [test_repo] [test_repo] [test_registry] : 
+====================================================================================================
+[05/31/2023 01:11:40 AM] [INFO] [test_repo] [test_repo] [test_add] : 
+
+Started TestRepo test_add at 01:11:40 AM on 05/31/2023
+[05/31/2023 01:11:40 AM] [INFO] [test_repo] [test_repo] [test_add] : 
+====================================================================================================
+[05/31/2023 01:11:40 AM] [INFO] [test_repo] [test_repo] [test_get] : 
+
+Started TestRepo test_get at 01:11:40 AM on 05/31/2023
+[05/31/2023 01:11:40 AM] [INFO] [test_repo] [test_repo] [test_get] : 
+====================================================================================================
+[05/31/2023 01:11:40 AM] [ERROR] [MetaRepo] [meta] [get] : File testfile.csv does not exist.
+[05/31/2023 01:54:56 AM] [INFO] [test_repo] [test_repo] [test_setup] : 
+
+Started TestRepo test_setup at 01:54:56 AM on 05/31/2023
+[05/31/2023 01:54:56 AM] [INFO] [test_repo] [test_repo] [test_setup] : 
+====================================================================================================
+[05/31/2023 01:54:56 AM] [INFO] [test_repo] [test_repo] [test_setup] : 
+Completed TestRepo test_setup in 0.1 seconds at 01:54:56 AM on 05/31/2023
+[05/31/2023 01:54:56 AM] [INFO] [test_repo] [test_repo] [test_setup] : 
+----------------------------------------------------------------------------------------------------
+[05/31/2023 01:54:56 AM] [INFO] [test_repo] [test_repo] [test_registry] : 
+
+Started TestRepo test_registry at 01:54:56 AM on 05/31/2023
+[05/31/2023 01:54:56 AM] [INFO] [test_repo] [test_repo] [test_registry] : 
+====================================================================================================
+[05/31/2023 01:54:56 AM] [INFO] [test_repo] [test_repo] [test_add] : 
+
+Started TestRepo test_add at 01:54:56 AM on 05/31/2023
+[05/31/2023 01:54:56 AM] [INFO] [test_repo] [test_repo] [test_add] : 
+====================================================================================================
+[05/31/2023 01:54:57 AM] [INFO] [test_repo] [test_repo] [test_get] : 
+
+Started TestRepo test_get at 01:54:57 AM on 05/31/2023
+[05/31/2023 01:54:57 AM] [INFO] [test_repo] [test_repo] [test_get] : 
+====================================================================================================
+[05/31/2023 01:54:57 AM] [INFO] [test_repo] [test_repo] [test_get] : 
+	Completed TestRepo test_get in 0.1 seconds at 01:54:57 AM on 05/31/2023
+[05/31/2023 01:54:57 AM] [INFO] [test_repo] [test_repo] [test_get] : 
+----------------------------------------------------------------------------------------------------
+[05/31/2023 02:02:50 AM] [INFO] [test_repo] [test_repo] [test_setup] : 
+
+Started TestRepo test_setup at 02:02:50 AM on 05/31/2023
+[05/31/2023 02:02:50 AM] [INFO] [test_repo] [test_repo] [test_setup] : 
+====================================================================================================
+[05/31/2023 02:02:50 AM] [INFO] [test_repo] [test_repo] [test_setup] : 
+Completed TestRepo test_setup in 0.1 seconds at 02:02:50 AM on 05/31/2023
+[05/31/2023 02:02:50 AM] [INFO] [test_repo] [test_repo] [test_setup] : 
+----------------------------------------------------------------------------------------------------
+[05/31/2023 02:02:50 AM] [INFO] [test_repo] [test_repo] [test_registry] : 
+
+Started TestRepo test_registry at 02:02:50 AM on 05/31/2023
+[05/31/2023 02:02:50 AM] [INFO] [test_repo] [test_repo] [test_registry] : 
+====================================================================================================
+[05/31/2023 02:02:50 AM] [INFO] [test_repo] [test_repo] [test_add] : 
+
+Started TestRepo test_add at 02:02:50 AM on 05/31/2023
+[05/31/2023 02:02:50 AM] [INFO] [test_repo] [test_repo] [test_add] : 
+====================================================================================================
+[05/31/2023 02:02:50 AM] [INFO] [test_repo] [test_repo] [test_get] : 
+
+Started TestRepo test_get at 02:02:50 AM on 05/31/2023
+[05/31/2023 02:02:50 AM] [INFO] [test_repo] [test_repo] [test_get] : 
+====================================================================================================
+[05/31/2023 02:02:51 AM] [INFO] [test_repo] [test_repo] [test_get] : 
+	Completed TestRepo test_get in 0.1 seconds at 02:02:51 AM on 05/31/2023
+[05/31/2023 02:02:51 AM] [INFO] [test_repo] [test_repo] [test_get] : 
+----------------------------------------------------------------------------------------------------
+[05/31/2023 02:04:15 AM] [INFO] [test_repo] [test_repo] [test_setup] : 
+
+Started TestRepo test_setup at 02:04:15 AM on 05/31/2023
+[05/31/2023 02:04:15 AM] [INFO] [test_repo] [test_repo] [test_setup] : 
+====================================================================================================
+[05/31/2023 02:04:15 AM] [INFO] [test_repo] [test_repo] [test_setup] : 
+Completed TestRepo test_setup in 0.1 seconds at 02:04:15 AM on 05/31/2023
+[05/31/2023 02:04:15 AM] [INFO] [test_repo] [test_repo] [test_setup] : 
+----------------------------------------------------------------------------------------------------
+[05/31/2023 02:04:15 AM] [INFO] [test_repo] [test_repo] [test_registry] : 
+
+Started TestRepo test_registry at 02:04:15 AM on 05/31/2023
+[05/31/2023 02:04:15 AM] [INFO] [test_repo] [test_repo] [test_registry] : 
+====================================================================================================
+[05/31/2023 02:04:16 AM] [INFO] [test_repo] [test_repo] [test_add] : 
+
+Started TestRepo test_add at 02:04:16 AM on 05/31/2023
+[05/31/2023 02:04:16 AM] [INFO] [test_repo] [test_repo] [test_add] : 
+====================================================================================================
+[05/31/2023 02:04:16 AM] [INFO] [test_repo] [test_repo] [test_get] : 
+
+Started TestRepo test_get at 02:04:16 AM on 05/31/2023
+[05/31/2023 02:04:16 AM] [INFO] [test_repo] [test_repo] [test_get] : 
+====================================================================================================
+[05/31/2023 02:04:16 AM] [INFO] [test_repo] [test_repo] [test_get] : 
+	Completed TestRepo test_get in 0.1 seconds at 02:04:16 AM on 05/31/2023
+[05/31/2023 02:04:16 AM] [INFO] [test_repo] [test_repo] [test_get] : 
+----------------------------------------------------------------------------------------------------
+[05/31/2023 02:13:00 AM] [INFO] [test_repo] [test_repo] [test_setup] : 
+
+Started TestRepo test_setup at 02:13:00 AM on 05/31/2023
+[05/31/2023 02:13:00 AM] [INFO] [test_repo] [test_repo] [test_setup] : 
+====================================================================================================
+[05/31/2023 02:13:00 AM] [INFO] [test_repo] [test_repo] [test_setup] : 
+Completed TestRepo test_setup in 0.1 seconds at 02:13:00 AM on 05/31/2023
+[05/31/2023 02:13:00 AM] [INFO] [test_repo] [test_repo] [test_setup] : 
+----------------------------------------------------------------------------------------------------
+[05/31/2023 02:13:00 AM] [INFO] [test_repo] [test_repo] [test_registry] : 
+
+Started TestRepo test_registry at 02:13:00 AM on 05/31/2023
+[05/31/2023 02:13:00 AM] [INFO] [test_repo] [test_repo] [test_registry] : 
+====================================================================================================
+[05/31/2023 02:13:01 AM] [INFO] [test_repo] [test_repo] [test_add] : 
+
+Started TestRepo test_add at 02:13:01 AM on 05/31/2023
+[05/31/2023 02:13:01 AM] [INFO] [test_repo] [test_repo] [test_add] : 
+====================================================================================================
+[05/31/2023 02:13:01 AM] [INFO] [test_repo] [test_repo] [test_get] : 
+
+Started TestRepo test_get at 02:13:01 AM on 05/31/2023
+[05/31/2023 02:13:01 AM] [INFO] [test_repo] [test_repo] [test_get] : 
+====================================================================================================
+[05/31/2023 02:13:01 AM] [INFO] [test_repo] [test_repo] [test_get] : 
+	Completed TestRepo test_get in 0.1 seconds at 02:13:01 AM on 05/31/2023
+[05/31/2023 02:13:01 AM] [INFO] [test_repo] [test_repo] [test_get] : 
+----------------------------------------------------------------------------------------------------
+[05/31/2023 02:14:28 AM] [INFO] [test_repo] [test_repo] [test_setup] : 
+
+Started TestRepo test_setup at 02:14:28 AM on 05/31/2023
+[05/31/2023 02:14:28 AM] [INFO] [test_repo] [test_repo] [test_setup] : 
+====================================================================================================
+[05/31/2023 02:14:28 AM] [INFO] [test_repo] [test_repo] [test_setup] : 
+Completed TestRepo test_setup in 0.1 seconds at 02:14:28 AM on 05/31/2023
+[05/31/2023 02:14:28 AM] [INFO] [test_repo] [test_repo] [test_setup] : 
+----------------------------------------------------------------------------------------------------
+[05/31/2023 02:14:28 AM] [INFO] [test_repo] [test_repo] [test_registry] : 
+
+Started TestRepo test_registry at 02:14:28 AM on 05/31/2023
+[05/31/2023 02:14:28 AM] [INFO] [test_repo] [test_repo] [test_registry] : 
+====================================================================================================
+[05/31/2023 02:14:28 AM] [INFO] [test_repo] [test_repo] [test_add] : 
+
+Started TestRepo test_add at 02:14:28 AM on 05/31/2023
+[05/31/2023 02:14:28 AM] [INFO] [test_repo] [test_repo] [test_add] : 
+====================================================================================================
+[05/31/2023 02:14:28 AM] [INFO] [test_repo] [test_repo] [test_get] : 
+
+Started TestRepo test_get at 02:14:28 AM on 05/31/2023
+[05/31/2023 02:14:28 AM] [INFO] [test_repo] [test_repo] [test_get] : 
+====================================================================================================
+[05/31/2023 02:14:29 AM] [INFO] [test_repo] [test_repo] [test_get] : 
+	Completed TestRepo test_get in 0.1 seconds at 02:14:29 AM on 05/31/2023
+[05/31/2023 02:14:29 AM] [INFO] [test_repo] [test_repo] [test_get] : 
+----------------------------------------------------------------------------------------------------
+[05/31/2023 02:17:20 AM] [INFO] [test_repo] [test_repo] [test_setup] : 
+
+Started TestRepo test_setup at 02:17:20 AM on 05/31/2023
+[05/31/2023 02:17:20 AM] [INFO] [test_repo] [test_repo] [test_setup] : 
+====================================================================================================
+[05/31/2023 02:17:20 AM] [INFO] [test_repo] [test_repo] [test_setup] : 
+Completed TestRepo test_setup in 0.1 seconds at 02:17:20 AM on 05/31/2023
+[05/31/2023 02:17:20 AM] [INFO] [test_repo] [test_repo] [test_setup] : 
+----------------------------------------------------------------------------------------------------
+[05/31/2023 02:17:20 AM] [INFO] [test_repo] [test_repo] [test_registry] : 
+
+Started TestRepo test_registry at 02:17:20 AM on 05/31/2023
+[05/31/2023 02:17:20 AM] [INFO] [test_repo] [test_repo] [test_registry] : 
+====================================================================================================
+[05/31/2023 02:17:20 AM] [INFO] [test_repo] [test_repo] [test_add] : 
+
+Started TestRepo test_add at 02:17:20 AM on 05/31/2023
+[05/31/2023 02:17:20 AM] [INFO] [test_repo] [test_repo] [test_add] : 
+====================================================================================================
+[05/31/2023 02:17:20 AM] [ERROR] [MetaRepo] [meta] [add] : File with name testfile.csv already exists.
+[05/31/2023 02:17:20 AM] [INFO] [test_repo] [test_repo] [test_get] : 
+
+Started TestRepo test_get at 02:17:20 AM on 05/31/2023
+[05/31/2023 02:17:20 AM] [INFO] [test_repo] [test_repo] [test_get] : 
+====================================================================================================
+[05/31/2023 02:36:40 AM] [INFO] [test_repo] [test_repo] [test_setup] : 
+
+Started TestRepo test_setup at 02:36:40 AM on 05/31/2023
+[05/31/2023 02:36:40 AM] [INFO] [test_repo] [test_repo] [test_setup] : 
+====================================================================================================
+[05/31/2023 02:36:40 AM] [INFO] [test_repo] [test_repo] [test_setup] : 
+Completed TestRepo test_setup in 0.1 seconds at 02:36:40 AM on 05/31/2023
+[05/31/2023 02:36:40 AM] [INFO] [test_repo] [test_repo] [test_setup] : 
+----------------------------------------------------------------------------------------------------
+[05/31/2023 02:36:40 AM] [INFO] [test_repo] [test_repo] [test_registry] : 
+
+Started TestRepo test_registry at 02:36:40 AM on 05/31/2023
+[05/31/2023 02:36:40 AM] [INFO] [test_repo] [test_repo] [test_registry] : 
+====================================================================================================
+[05/31/2023 02:36:40 AM] [INFO] [test_repo] [test_repo] [test_registry] : 
+Completed TestRepo test_registry in 0.0 seconds at 02:36:40 AM on 05/31/2023
+[05/31/2023 02:36:40 AM] [INFO] [test_repo] [test_repo] [test_registry] : 
+----------------------------------------------------------------------------------------------------
+[05/31/2023 02:36:40 AM] [INFO] [test_repo] [test_repo] [test_add] : 
+
+Started TestRepo test_add at 02:36:40 AM on 05/31/2023
+[05/31/2023 02:36:40 AM] [INFO] [test_repo] [test_repo] [test_add] : 
+====================================================================================================
+[05/31/2023 02:36:40 AM] [INFO] [test_repo] [test_repo] [test_add] : 
+	Completed TestRepo test_add in 0.0 seconds at 02:36:40 AM on 05/31/2023
+[05/31/2023 02:36:40 AM] [INFO] [test_repo] [test_repo] [test_add] : 
+----------------------------------------------------------------------------------------------------
+[05/31/2023 02:36:40 AM] [INFO] [test_repo] [test_repo] [test_get] : 
+
+Started TestRepo test_get at 02:36:40 AM on 05/31/2023
+[05/31/2023 02:36:40 AM] [INFO] [test_repo] [test_repo] [test_get] : 
+====================================================================================================
+[05/31/2023 02:36:40 AM] [INFO] [test_repo] [test_repo] [test_get] : 
+	Completed TestRepo test_get in 0.0 seconds at 02:36:40 AM on 05/31/2023
+[05/31/2023 02:36:40 AM] [INFO] [test_repo] [test_repo] [test_get] : 
+----------------------------------------------------------------------------------------------------
+[05/31/2023 02:41:16 AM] [INFO] [test_repo] [test_repo] [test_setup] : 
+
+Started TestRepo test_setup at 02:41:16 AM on 05/31/2023
+[05/31/2023 02:41:16 AM] [INFO] [test_repo] [test_repo] [test_setup] : 
+====================================================================================================
+[05/31/2023 02:41:16 AM] [INFO] [test_repo] [test_repo] [test_setup] : 
+Completed TestRepo test_setup in 0.1 seconds at 02:41:16 AM on 05/31/2023
+[05/31/2023 02:41:16 AM] [INFO] [test_repo] [test_repo] [test_setup] : 
+----------------------------------------------------------------------------------------------------
+[05/31/2023 02:41:16 AM] [INFO] [test_repo] [test_repo] [test_registry] : 
+
+Started TestRepo test_registry at 02:41:16 AM on 05/31/2023
+[05/31/2023 02:41:16 AM] [INFO] [test_repo] [test_repo] [test_registry] : 
+====================================================================================================
+[05/31/2023 02:41:16 AM] [INFO] [test_repo] [test_repo] [test_add] : 
+
+Started TestRepo test_add at 02:41:16 AM on 05/31/2023
+[05/31/2023 02:41:16 AM] [INFO] [test_repo] [test_repo] [test_add] : 
+====================================================================================================
+[05/31/2023 02:41:16 AM] [ERROR] [MetaRepo] [meta] [add] : File with name testfile.csv already exists.
+[05/31/2023 02:41:16 AM] [INFO] [test_repo] [test_repo] [test_get] : 
+
+Started TestRepo test_get at 02:41:16 AM on 05/31/2023
+[05/31/2023 02:41:16 AM] [INFO] [test_repo] [test_repo] [test_get] : 
+====================================================================================================
+[05/31/2023 02:41:16 AM] [ERROR] [bcd.services.io.file.bcd.services.io.file] [file] [_get_io] : File type py is not supported.
+[05/31/2023 02:41:16 AM] [ERROR] [MetaRepo] [meta] [get] : File XYZ.py does not exist.
+[05/31/2023 02:41:16 AM] [INFO] [test_repo] [test_repo] [test_get] : 
+	Completed TestRepo test_get in 0.0 seconds at 02:41:16 AM on 05/31/2023
+[05/31/2023 02:41:16 AM] [INFO] [test_repo] [test_repo] [test_get] : 
+----------------------------------------------------------------------------------------------------
+[05/31/2023 02:53:13 AM] [INFO] [test_repo] [test_repo] [test_setup] : 
+
+Started TestRepo test_setup at 02:53:13 AM on 05/31/2023
+[05/31/2023 02:53:13 AM] [INFO] [test_repo] [test_repo] [test_setup] : 
+====================================================================================================
+[05/31/2023 02:53:13 AM] [INFO] [test_repo] [test_repo] [test_setup] : 
+Completed TestRepo test_setup in 0.1 seconds at 02:53:13 AM on 05/31/2023
+[05/31/2023 02:53:13 AM] [INFO] [test_repo] [test_repo] [test_setup] : 
+----------------------------------------------------------------------------------------------------
+[05/31/2023 02:53:13 AM] [INFO] [test_repo] [test_repo] [test_registry] : 
+
+Started TestRepo test_registry at 02:53:13 AM on 05/31/2023
+[05/31/2023 02:53:13 AM] [INFO] [test_repo] [test_repo] [test_registry] : 
+====================================================================================================
+[05/31/2023 02:53:13 AM] [INFO] [test_repo] [test_repo] [test_registry] : 
+Completed TestRepo test_registry in 0.0 seconds at 02:53:13 AM on 05/31/2023
+[05/31/2023 02:53:13 AM] [INFO] [test_repo] [test_repo] [test_registry] : 
+----------------------------------------------------------------------------------------------------
+[05/31/2023 02:53:13 AM] [INFO] [test_repo] [test_repo] [test_add] : 
+
+Started TestRepo test_add at 02:53:13 AM on 05/31/2023
+[05/31/2023 02:53:13 AM] [INFO] [test_repo] [test_repo] [test_add] : 
+====================================================================================================
+[05/31/2023 02:53:13 AM] [ERROR] [MetaRepo] [meta] [add] : File with name testfile.csv already exists.
+[05/31/2023 02:53:13 AM] [INFO] [test_repo] [test_repo] [test_add] : 
+	Completed TestRepo test_add in 0.0 seconds at 02:53:13 AM on 05/31/2023
+[05/31/2023 02:53:13 AM] [INFO] [test_repo] [test_repo] [test_add] : 
+----------------------------------------------------------------------------------------------------
+[05/31/2023 02:53:13 AM] [INFO] [test_repo] [test_repo] [test_get] : 
+
+Started TestRepo test_get at 02:53:13 AM on 05/31/2023
+[05/31/2023 02:53:13 AM] [INFO] [test_repo] [test_repo] [test_get] : 
+====================================================================================================
+[05/31/2023 02:53:13 AM] [ERROR] [bcd.services.io.file.bcd.services.io.file] [file] [_get_io] : File type py is not supported.
+[05/31/2023 02:53:13 AM] [ERROR] [MetaRepo] [meta] [get] : File XYZ.py does not exist.
+[05/31/2023 02:53:13 AM] [INFO] [test_repo] [test_repo] [test_get] : 
+	Completed TestRepo test_get in 0.0 seconds at 02:53:13 AM on 05/31/2023
+[05/31/2023 02:53:13 AM] [INFO] [test_repo] [test_repo] [test_get] : 
+----------------------------------------------------------------------------------------------------
+[05/31/2023 02:59:27 AM] [INFO] [test_repo] [test_repo] [test_setup] : 
+
+Started TestRepo test_setup at 02:59:27 AM on 05/31/2023
+[05/31/2023 02:59:27 AM] [INFO] [test_repo] [test_repo] [test_setup] : 
+====================================================================================================
+[05/31/2023 02:59:27 AM] [INFO] [test_repo] [test_repo] [test_setup] : 
+Completed TestRepo test_setup in 0.1 seconds at 02:59:27 AM on 05/31/2023
+[05/31/2023 02:59:27 AM] [INFO] [test_repo] [test_repo] [test_setup] : 
+----------------------------------------------------------------------------------------------------
+[05/31/2023 02:59:27 AM] [INFO] [test_repo] [test_repo] [test_registry] : 
+
+Started TestRepo test_registry at 02:59:27 AM on 05/31/2023
+[05/31/2023 02:59:27 AM] [INFO] [test_repo] [test_repo] [test_registry] : 
+====================================================================================================
+[05/31/2023 02:59:27 AM] [INFO] [test_repo] [test_repo] [test_registry] : 
+Completed TestRepo test_registry in 0.0 seconds at 02:59:27 AM on 05/31/2023
+[05/31/2023 02:59:27 AM] [INFO] [test_repo] [test_repo] [test_registry] : 
+----------------------------------------------------------------------------------------------------
+[05/31/2023 02:59:27 AM] [INFO] [test_repo] [test_repo] [test_add] : 
+
+Started TestRepo test_add at 02:59:27 AM on 05/31/2023
+[05/31/2023 02:59:27 AM] [INFO] [test_repo] [test_repo] [test_add] : 
+====================================================================================================
+[05/31/2023 02:59:27 AM] [ERROR] [MetaRepo] [meta] [add] : File with name testfile.csv already exists.
+[05/31/2023 02:59:27 AM] [INFO] [test_repo] [test_repo] [test_add] : 
+	Completed TestRepo test_add in 0.0 seconds at 02:59:27 AM on 05/31/2023
+[05/31/2023 02:59:27 AM] [INFO] [test_repo] [test_repo] [test_add] : 
+----------------------------------------------------------------------------------------------------
+[05/31/2023 02:59:27 AM] [INFO] [test_repo] [test_repo] [test_get] : 
+
+Started TestRepo test_get at 02:59:27 AM on 05/31/2023
+[05/31/2023 02:59:27 AM] [INFO] [test_repo] [test_repo] [test_get] : 
+====================================================================================================
+[05/31/2023 02:59:27 AM] [ERROR] [bcd.services.io.file.bcd.services.io.file] [file] [_get_io] : File type py is not supported.
+[05/31/2023 02:59:27 AM] [ERROR] [MetaRepo] [meta] [get] : File XYZ.py does not exist.
+[05/31/2023 02:59:27 AM] [INFO] [test_repo] [test_repo] [test_get] : 
+	Completed TestRepo test_get in 0.0 seconds at 02:59:27 AM on 05/31/2023
+[05/31/2023 02:59:27 AM] [INFO] [test_repo] [test_repo] [test_get] : 
+----------------------------------------------------------------------------------------------------
+[05/31/2023 03:00:31 AM] [INFO] [test_repo] [test_repo] [test_setup] : 
+
+Started TestRepo test_setup at 03:00:31 AM on 05/31/2023
+[05/31/2023 03:00:31 AM] [INFO] [test_repo] [test_repo] [test_setup] : 
+====================================================================================================
+[05/31/2023 03:00:31 AM] [INFO] [test_repo] [test_repo] [test_setup] : 
+Completed TestRepo test_setup in 0.1 seconds at 03:00:31 AM on 05/31/2023
+[05/31/2023 03:00:31 AM] [INFO] [test_repo] [test_repo] [test_setup] : 
+----------------------------------------------------------------------------------------------------
+[05/31/2023 03:00:31 AM] [INFO] [test_repo] [test_repo] [test_registry] : 
+
+Started TestRepo test_registry at 03:00:31 AM on 05/31/2023
+[05/31/2023 03:00:31 AM] [INFO] [test_repo] [test_repo] [test_registry] : 
+====================================================================================================
+[05/31/2023 03:00:31 AM] [INFO] [test_repo] [test_repo] [test_registry] : 
+Completed TestRepo test_registry in 0.0 seconds at 03:00:31 AM on 05/31/2023
+[05/31/2023 03:00:31 AM] [INFO] [test_repo] [test_repo] [test_registry] : 
+----------------------------------------------------------------------------------------------------
+[05/31/2023 03:00:31 AM] [INFO] [test_repo] [test_repo] [test_add] : 
+
+Started TestRepo test_add at 03:00:31 AM on 05/31/2023
+[05/31/2023 03:00:31 AM] [INFO] [test_repo] [test_repo] [test_add] : 
+====================================================================================================
+[05/31/2023 03:00:31 AM] [ERROR] [MetaRepo] [meta] [add] : File with name testfile.csv already exists.
+[05/31/2023 03:00:31 AM] [INFO] [test_repo] [test_repo] [test_add] : 
+	Completed TestRepo test_add in 0.0 seconds at 03:00:31 AM on 05/31/2023
+[05/31/2023 03:00:31 AM] [INFO] [test_repo] [test_repo] [test_add] : 
+----------------------------------------------------------------------------------------------------
+[05/31/2023 03:00:31 AM] [INFO] [test_repo] [test_repo] [test_get] : 
+
+Started TestRepo test_get at 03:00:31 AM on 05/31/2023
+[05/31/2023 03:00:31 AM] [INFO] [test_repo] [test_repo] [test_get] : 
+====================================================================================================
+[05/31/2023 03:00:31 AM] [ERROR] [bcd.services.io.file.bcd.services.io.file] [file] [_get_io] : File type py is not supported.
+[05/31/2023 03:00:31 AM] [ERROR] [MetaRepo] [meta] [get] : File XYZ.py does not exist.
+[05/31/2023 03:00:31 AM] [INFO] [test_repo] [test_repo] [test_get] : 
+	Completed TestRepo test_get in 0.0 seconds at 03:00:31 AM on 05/31/2023
+[05/31/2023 03:00:31 AM] [INFO] [test_repo] [test_repo] [test_get] : 
+----------------------------------------------------------------------------------------------------

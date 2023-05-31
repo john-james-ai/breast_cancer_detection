@@ -1,17 +1,17 @@
 #!/usr/bin/env python3
 # -*- coding:utf-8 -*-
 # ================================================================================================ #
-# Project    : Enter Project Name in Workspace Settings                                            #
-# Version    : 0.1.19                                                                              #
+# Project    : Deep Learning Methods for Breast Cancer Detection                                   #
+# Version    : 0.1.0                                                                               #
 # Python     : 3.10.11                                                                             #
-# Filename   : /cadx/services/visual/config.py                                                     #
+# Filename   : /bcd/services/visual/config.py                                                      #
 # ------------------------------------------------------------------------------------------------ #
 # Author     : John James                                                                          #
 # Email      : john.james.ai.studio@gmail.com                                                      #
-# URL        : Enter URL in Workspace Settings                                                     #
+# URL        : https://github.com/john-james-ai/breast_cancer_detection                            #
 # ------------------------------------------------------------------------------------------------ #
 # Created    : Wednesday May 24th 2023 04:11:27 pm                                                 #
-# Modified   : Thursday May 25th 2023 12:18:16 pm                                                  #
+# Modified   : Wednesday May 31st 2023 12:30:49 am                                                 #
 # ------------------------------------------------------------------------------------------------ #
 # License    : MIT License                                                                         #
 # Copyright  : (c) 2023 John James                                                                 #
