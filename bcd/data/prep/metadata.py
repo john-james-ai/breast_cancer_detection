@@ -11,7 +11,7 @@
 # URL        : https://github.com/john-james-ai/breast_cancer_detection                            #
 # ------------------------------------------------------------------------------------------------ #
 # Created    : Thursday May 25th 2023 07:32:20 am                                                  #
-# Modified   : Wednesday May 31st 2023 12:30:49 am                                                 #
+# Modified   : Wednesday May 31st 2023 04:22:59 am                                                 #
 # ------------------------------------------------------------------------------------------------ #
 # License    : MIT License                                                                         #
 # Copyright  : (c) 2023 John James                                                                 #
@@ -32,3 +32,7 @@ class ColumnTransformer:
     def transform(self, X: pd.DataFrame, y: np.array = None) -> pd.DataFrame:
         mapping = {col: col.replace(" ", "_") for col in X.columns}
         return X.rename(columns=mapping)
+
+    def fit_transform(self, X: pd.DataFrame, y: np.array = None) -> pd.DataFrame:
+        t4r = self.fit(X)
+        return t4r.transform(X)

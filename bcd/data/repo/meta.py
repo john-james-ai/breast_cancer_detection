@@ -1,17 +1,17 @@
 #!/usr/bin/env python3
 # -*- coding:utf-8 -*-
 # ================================================================================================ #
-# Project    : Enter Project Name in Workspace Settings                                            #
-# Version    : 0.1.19                                                                              #
+# Project    : Deep Learning Methods for Breast Cancer Detection                                   #
+# Version    : 0.1.0                                                                               #
 # Python     : 3.10.10                                                                             #
-# Filename   : /deepcad/data/repo/meta.py                                                          #
+# Filename   : /bcd/data/repo/meta.py                                                              #
 # ------------------------------------------------------------------------------------------------ #
 # Author     : John James                                                                          #
 # Email      : john.james.ai.studio@gmail.com                                                      #
-# URL        : Enter URL in Workspace Settings                                                     #
+# URL        : https://github.com/john-james-ai/breast_cancer_detection                            #
 # ------------------------------------------------------------------------------------------------ #
 # Created    : Thursday May 25th 2023 10:56:21 pm                                                  #
-# Modified   : Wednesday May 31st 2023 12:21:58 am                                                 #
+# Modified   : Wednesday May 31st 2023 04:39:03 am                                                 #
 # ------------------------------------------------------------------------------------------------ #
 # License    : MIT License                                                                         #
 # Copyright  : (c) 2023 John James                                                                 #
@@ -50,14 +50,21 @@ class MetaRepo(Repo):
             self._logger.error(msg)
             raise FileNotFoundError(e)
 
-    def add(self, filename: str, data: Any) -> None:
+    def add(self, filename: str, data: Any, force: bool = False) -> None:
         """Adds a file to the repository"""
-        if self.exists(filename):
+        filepath = os.path.join(self._directory, filename)
+
+        if self.exists(filename) and not force:
             msg = f"File with name {filename} already exists."
             self._logger.error(msg)
             raise FileExistsError(msg)
-        filepath = os.path.join(self._directory, filename)
-        self._io.write(filepath, data=data)
+        elif self.exists(filename):
+            msg = "File exists. Forcing will overwrite the file. Are you sure? *y/n "
+            overwrite = input(msg)
+            if "y" in overwrite.lower():
+                self._io.write(filepath, data=data)
+        else:
+            self._io.write(filepath, data=data)
 
     def exists(self, filename) -> bool:
         """Checks existence of a file"""

@@ -11,7 +11,7 @@
 # URL        : https://github.com/john-james-ai/breast_cancer_detection                            #
 # ------------------------------------------------------------------------------------------------ #
 # Created    : Thursday May 25th 2023 12:43:06 pm                                                  #
-# Modified   : Wednesday May 31st 2023 02:50:02 am                                                 #
+# Modified   : Wednesday May 31st 2023 04:48:45 am                                                 #
 # ------------------------------------------------------------------------------------------------ #
 # License    : MIT License                                                                         #
 # Copyright  : (c) 2023 John James                                                                 #
@@ -41,7 +41,7 @@ class DataDirSelector:
         load_dotenv()
         mode = os.getenv("MODE")
         datadir = self.__datadirs[mode]
-        os.environ.setdefault("DATADIR", datadir)
+        os.environ["DATADIR"] = datadir
 
 
 # ------------------------------------------------------------------------------------------------ #

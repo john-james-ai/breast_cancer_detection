@@ -11,7 +11,7 @@
 # URL        : https://github.com/john-james-ai/breast_cancer_detection                            #
 # ------------------------------------------------------------------------------------------------ #
 # Created    : Tuesday May 30th 2023 11:19:53 pm                                                   #
-# Modified   : Wednesday May 31st 2023 02:44:10 am                                                 #
+# Modified   : Wednesday May 31st 2023 04:36:21 am                                                 #
 # ------------------------------------------------------------------------------------------------ #
 # License    : MIT License                                                                         #
 # Copyright  : (c) 2023 John James                                                                 #
@@ -51,7 +51,10 @@ class TestRepo:  # pragma: no cover
         logger.info(double_line)
         # ---------------------------------------------------------------------------------------- #
         filepath = os.path.join(DIRECTORY, NEWFILE)
-        os.remove(filepath)
+        try:
+            os.remove(filepath)
+        except FileNotFoundError:
+            pass
 
         # ---------------------------------------------------------------------------------------- #
         end = datetime.now()
@@ -121,6 +124,8 @@ class TestRepo:  # pragma: no cover
 
         with pytest.raises(FileExistsError):
             repo.add(filename=NEWFILE, data=dataset)
+
+        repo.add(filename=NEWFILE, data=dataset, force=True)
 
         # ---------------------------------------------------------------------------------------- #
         end = datetime.now()
