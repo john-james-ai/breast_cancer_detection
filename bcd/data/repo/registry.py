@@ -11,7 +11,7 @@
 # URL        : https://github.com/john-james-ai/breast_cancer_detection                            #
 # ------------------------------------------------------------------------------------------------ #
 # Created    : Friday June 2nd 2023 06:46:16 pm                                                    #
-# Modified   : Saturday June 3rd 2023 01:34:37 am                                                  #
+# Modified   : Saturday June 3rd 2023 05:09:36 am                                                  #
 # ------------------------------------------------------------------------------------------------ #
 # License    : MIT License                                                                         #
 # Copyright  : (c) 2023 John James                                                                 #
@@ -24,81 +24,82 @@ from bcd.data.repo.base import Registry
 
 
 # ------------------------------------------------------------------------------------------------ #
-class SeriesRegistry(Registry):
-    """Registry for DICOM series
+class ImageRegistry(Registry):
+    """Registry for DICOM image
 
     Args:
         filepath (str): Location of registry
 
     """
 
-    def __init__(self, filepath: str, immutable: bool) -> None:
-        super().__init__(filepath=filepath, immutable=immutable)
+    def __init__(self, filepath: str) -> None:
+        super().__init__(filepath=filepath)
 
     @property
     def count(self) -> int:
-        """Returns number of registered series'."""
+        """Returns number of registered images'."""
         return len(self.get_uids())
 
     def add(self, registration: dict) -> None:
-        """Adds a series registration to the registry."""
+        """Adds a image registration to the registry."""
         self._load()
 
-        if not self._exists(series_uid=registration["series_uid"]):
+        if not self._exists(uid=registration["uid"]):
+            # Convert the registration to DataFrame format and append to registry
             registration = pd.DataFrame(data=registration, index=[0])
             self._registry = pd.concat([self._registry, registration], axis=0)
         else:
-            msg = f"Series uid {registration['series_uid']} already exists."
+            msg = f"Image uid {registration['uid']} already exists."
             self._logger.error(msg)
             raise FileExistsError(msg)
         self._save()
 
-    def get(self, series_uid: str) -> dict:
-        """Gets a registration for a series from the registry.
+    def get(self, uid: str) -> dict:
+        """Gets a registration for a image from the registry.
 
         Args:
-            series _uid (str): Series unique id.
+            image _uid (str): Image unique id.
         """
         self._load()
-        if self._exists(series_uid):
-            return self._registry[self._registry["series_uid"] == series_uid].to_dict(
-                orient="records"
-            )[0]
+        if self._exists(uid):
+            return self._registry[self._registry["uid"] == uid].to_dict(orient="records")[
+                0
+            ]  # Actually returns a list
         else:
-            msg = f"The series_uid, {series_uid} does not exist."
+            msg = f"The uid, {uid} does not exist."
             self._logger.error(msg)
             raise FileNotFoundError(msg)
 
     def get_uids(self) -> list:
-        """Returns a list of series uids"""
+        """Returns a list of image uids"""
         self._load()
-        return self._registry["series_uid"].values
+        return self._registry["uid"].values
 
     def update(self, registration: dict) -> None:
         """Updates the registration in the registry
 
         Args:
-            registration (dict): Series registration
+            registration (dict): Image registration
         """
 
-        self.remove(series_uid=registration["series_uid"])
+        self.remove(uid=registration["uid"])
         self.add(registration=registration)
 
-    def remove(self, series_uid: str) -> None:
-        """Removes a Series registration from the registry."""
+    def remove(self, uid: str) -> None:
+        """Removes a Image registration from the registry."""
         self._load()
-        if self._exists(series_uid=series_uid):
-            self._registry = self._registry[self._registry["series_uid"] != series_uid]
+        if self._exists(uid=uid):
+            self._registry = self._registry[self._registry["uid"] != uid]
         else:
-            msg = f"Series registration for {series_uid} not found."
+            msg = f"Image registration for {uid} not found."
             self._logger.error(msg)
             raise FileNotFoundError(msg)
         self._save()
 
-    def _exists(self, series_uid: str) -> bool:
-        """Checks existence of the series in the registry."""
+    def _exists(self, uid: str) -> bool:
+        """Checks existence of the image in the registry."""
         self._load()
         try:
-            return series_uid in self._registry["series_uid"].values
+            return uid in self._registry["uid"].values
         except KeyError:
             return False

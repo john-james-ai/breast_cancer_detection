@@ -11,7 +11,7 @@
 # URL        : https://github.com/john-james-ai/breast_cancer_detection                            #
 # ------------------------------------------------------------------------------------------------ #
 # Created    : Tuesday May 30th 2023 11:25:42 pm                                                   #
-# Modified   : Saturday June 3rd 2023 01:20:28 am                                                  #
+# Modified   : Saturday June 3rd 2023 06:35:30 am                                                  #
 # ------------------------------------------------------------------------------------------------ #
 # License    : MIT License                                                                         #
 # Copyright  : (c) 2023 John James                                                                 #
@@ -23,7 +23,7 @@ import pytest
 import pandas as pd
 import dotenv
 
-from bcd.data.repo.registry import SeriesRegistry
+from bcd.data.repo.registry import ImageRegistry
 from bcd.container import BCDContainer
 
 # ------------------------------------------------------------------------------------------------ #
@@ -31,6 +31,7 @@ DATAFILE = "tests/data/meta/calc_cases.csv"
 DICOMDIR = "tests/data/CBIS-DDSM"
 METADATA = "tests/data/meta/metadata.csv"
 REGISTRY = "tests/data/CBIS-DDSM/registry.csv"
+LOCATION = "tests/data"
 # ------------------------------------------------------------------------------------------------ #
 collect_ignore_glob = []
 
@@ -49,8 +50,19 @@ def dataset():
 @pytest.fixture(scope="module", autouse=False)
 def registrations():
     meta = pd.read_csv(METADATA, index_col=None)
-    regs = meta[meta["file_location"].str.contains("00140")]
-    return regs.to_dict(orient="records")
+    meta = meta[
+        (meta["file_location"].str.contains("Calc-Test_P_00140"))
+        | (meta["file_location"].str.contains("Mass-Test_P_00145"))
+    ]
+    registrations = []
+    for _, row in meta.iterrows():
+        directory = os.path.join(LOCATION, row["file_location"].replace("./", ""))
+        filenames = os.listdir(directory)
+        for filename in filenames:
+            row["filename"] = filename
+            row = dict(row)
+            registrations.append(row)
+    return registrations
 
 
 # ------------------------------------------------------------------------------------------------ #
@@ -58,7 +70,7 @@ def registrations():
 # ------------------------------------------------------------------------------------------------ #
 @pytest.fixture(scope="module", autouse=False)
 def registry():
-    return SeriesRegistry(filepath=REGISTRY, immutable=False)
+    return ImageRegistry(filepath=REGISTRY)
 
 
 # ------------------------------------------------------------------------------------------------ #

@@ -11,7 +11,7 @@
 # URL        : https://github.com/john-james-ai/breast_cancer_detection                            #
 # ------------------------------------------------------------------------------------------------ #
 # Created    : Thursday May 25th 2023 10:26:59 pm                                                  #
-# Modified   : Saturday June 3rd 2023 01:32:30 am                                                  #
+# Modified   : Saturday June 3rd 2023 05:06:32 am                                                  #
 # ------------------------------------------------------------------------------------------------ #
 # License    : MIT License                                                                         #
 # Copyright  : (c) 2023 John James                                                                 #
@@ -79,9 +79,8 @@ class Repo(ABC):
 
 # ------------------------------------------------------------------------------------------------ #
 class Registry(ABC):
-    def __init__(self, filepath: str, immutable: bool, io: IOService = IOService) -> None:
+    def __init__(self, filepath: str, io: IOService = IOService) -> None:
         self._filepath = filepath
-        self._immutable = immutable
         self._io = io
         self._registry = pd.DataFrame()
         self._logger = logging.getLogger(f"{self.__class__.__name__}")
@@ -90,16 +89,6 @@ class Registry(ABC):
     def registry(self) -> pd.DataFrame:
         """Returns the registry."""
         return self._registry
-
-    @property
-    def immutable(self) -> bool:
-        """Returns the value of the immutability variable."""
-        return self._immutable
-
-    @immutable.setter
-    def immutable(self, immutable: bool) -> None:
-        """Sets the immutability of the Repo"""
-        self._immutable = immutable
 
     @abstractmethod
     def get(self, *args, **kwargs) -> pd.DataFrame:
