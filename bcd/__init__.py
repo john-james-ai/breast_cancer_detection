@@ -11,8 +11,12 @@
 # URL        : https://github.com/john-james-ai/breast_cancer_detection                            #
 # ------------------------------------------------------------------------------------------------ #
 # Created    : Thursday May 25th 2023 12:30:16 pm                                                  #
-# Modified   : Wednesday May 31st 2023 12:30:49 am                                                 #
+# Modified   : Friday June 2nd 2023 05:15:59 pm                                                    #
 # ------------------------------------------------------------------------------------------------ #
 # License    : MIT License                                                                         #
 # Copyright  : (c) 2023 John James                                                                 #
 # ================================================================================================ #
+"""Application-Wide Constants"""
+IMMUTABLE_TYPES: tuple = (str, int, float, bool, type(None))
+SEQUENCE_TYPES: tuple = (list, tuple)
+# ------------------------------------------------------------------------------------------------ #

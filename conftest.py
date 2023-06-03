@@ -11,7 +11,7 @@
 # URL        : https://github.com/john-james-ai/breast_cancer_detection                            #
 # ------------------------------------------------------------------------------------------------ #
 # Created    : Tuesday May 30th 2023 11:25:42 pm                                                   #
-# Modified   : Wednesday May 31st 2023 04:52:54 am                                                 #
+# Modified   : Thursday June 1st 2023 10:34:43 pm                                                  #
 # ------------------------------------------------------------------------------------------------ #
 # License    : MIT License                                                                         #
 # Copyright  : (c) 2023 John James                                                                 #
@@ -26,7 +26,7 @@ import dotenv
 from bcd.container import BCDContainer
 
 # ------------------------------------------------------------------------------------------------ #
-DATAFILE = "tests/data/meta/test_data1.csv"
+DATAFILE = "tests/data/meta/calc_cases.csv"
 
 # ------------------------------------------------------------------------------------------------ #
 collect_ignore_glob = []
@@ -45,9 +45,12 @@ def dataset():
 # ------------------------------------------------------------------------------------------------ #
 @pytest.fixture(scope="module", autouse=True)
 def container():
-    # Reset the environment variable to test.
     dotenv_file = dotenv.find_dotenv()
     dotenv.load_dotenv(dotenv_file)
+    # Get current mode
+    mode = os.environ["MODE"]
+
+    # Reset the environment variable to test.
     os.environ["MODE"] = "test"
     dotenv.set_key(dotenv_file, "MODE", os.environ["MODE"])
 
@@ -55,4 +58,6 @@ def container():
     container.init_resources()
     # container.wire(packages=[])
 
-    return container
+    yield container  # Return mode to prior setting
+    os.environ["MODE"] = mode
+    dotenv.set_key(dotenv_file, "MODE", os.environ["MODE"])

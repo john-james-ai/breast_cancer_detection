@@ -11,7 +11,7 @@
 # URL        : https://github.com/john-james-ai/breast_cancer_detection                            #
 # ------------------------------------------------------------------------------------------------ #
 # Created    : Wednesday May 31st 2023 03:58:20 am                                                 #
-# Modified   : Wednesday May 31st 2023 06:07:02 am                                                 #
+# Modified   : Friday June 2nd 2023 02:56:55 pm                                                    #
 # ------------------------------------------------------------------------------------------------ #
 # License    : MIT License                                                                         #
 # Copyright  : (c) 2023 John James                                                                 #
@@ -21,8 +21,8 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-from bcd.data.repo.meta import MetaRepo
-from bcd.services.visual.config import Canvas
+from bcd.data.repo.meta import CaseMetaRepo
+from bcd.service.visual.config import Canvas
 from bcd.container import BCDContainer
 
 sns.set_style(Canvas.style)
@@ -37,10 +37,10 @@ class CaseMeta:
     __mass_cases = "mass_cases.csv"
 
     @inject
-    def __init__(self, repo: MetaRepo = Provide[BCDContainer.repo.meta]) -> None:
+    def __init__(self, repo: CaseMetaRepo = Provide[BCDContainer.repo.meta]) -> None:
         self._repo = repo
-        self._calc = self._repo.get(filename=self.__calc_cases)
-        self._mass = self._repo.get(filename=self.__mass_cases)
+        self._calc = self._repo.get(casetype="calc")
+        self._mass = self._repo.get(casetype="mass")
 
     def cases_and_abnormalities(self) -> None:
         """Renders a plot of counts by pathology and case type"""
@@ -73,6 +73,56 @@ class CaseMeta:
         handles, labels = ax1.get_legend_handles_labels()
         fig.legend(handles, labels, loc="upper left", fontsize=8)
 
+        plt.tight_layout()
+
+    def pathology_feature(self, top: int = 5) -> None:
+        """Plots top n features by pathology and abnormality type"""
+        canvas = Canvas(nrows=2, ncols=2, figsize=(6, 3))
+        fig = canvas.fig
+        ((ax1, ax2), (ax3, ax4)) = canvas.axs
+        title = f"Top {top} Features by Pathology"
+        fig.suptitle(title)
+
+        self._pathology_feature(data=self._calc, feature="calc_type", ax=ax1, top=top)
+        self._pathology_feature(data=self._calc, feature="calc_distribution", ax=ax2, top=top)
+        self._pathology_feature(data=self._mass, feature="mass_shape", ax=ax3, top=top)
+        self._pathology_feature(data=self._mass, feature="mass_margins", ax=ax4, top=top)
+
+    def _pathology_feature(
+        self, data: pd.DataFrame, feature: str, ax: plt.axes, top: int = 5
+    ) -> None:
+        """Plots top n features by pathology"""
+        labels = {
+            "calc_type": "Calcification Type",
+            "calc_distribution": "Calcification Distribution",
+            "mass_shape": "Mass Shape",
+            "mass_margins": "Mass Margins",
+        }
+        label = labels[feature]
+
+        df = (
+            data.groupby(by=["pathology", feature])
+            .size()
+            .reset_index(name="count")
+            .sort_values(by=["pathology", "count"], ascending=False)
+        )
+        df = df.groupby(by="pathology").head(top)
+        df.columns = ["Pathology", label, "Count"]
+
+        ax = sns.barplot(
+            data=df,
+            x="Pathology",
+            y="Count",
+            hue=label,
+            ax=ax,
+            saturation=0.5,
+            estimator="sum",
+            dodge=False,
+            palette=Canvas.palette,
+        )
+
+        ax.set_title(label)
+        ax.legend(loc="best", fontsize=6, framealpha=0.3, mode="expand", ncols=2)
         plt.tight_layout()
 
     def abnormalities(self, title: str, measure: str, group: str, group_order: list = []) -> None:

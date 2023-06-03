@@ -11,7 +11,7 @@
 # URL        : https://github.com/john-james-ai/breast_cancer_detection                            #
 # ------------------------------------------------------------------------------------------------ #
 # Created    : Thursday May 25th 2023 12:43:06 pm                                                  #
-# Modified   : Wednesday May 31st 2023 04:48:45 am                                                 #
+# Modified   : Friday June 2nd 2023 02:56:55 pm                                                    #
 # ------------------------------------------------------------------------------------------------ #
 # License    : MIT License                                                                         #
 # Copyright  : (c) 2023 John James                                                                 #
@@ -24,8 +24,8 @@ from dotenv import load_dotenv
 
 from dependency_injector import containers, providers
 
-from bcd.data.repo.meta import MetaRepo
-from bcd.services.io.file import IOService
+from bcd.data.repo.meta import CaseMetaRepo
+from bcd.service.io.file import IOService
 
 
 # ------------------------------------------------------------------------------------------------ #
@@ -62,7 +62,7 @@ class LoggingContainer(containers.DeclarativeContainer):
 class RepoContainer(containers.DeclarativeContainer):
     config = providers.Configuration()
 
-    meta = providers.Singleton(MetaRepo, directory=config.repos.meta, io=IOService)
+    meta = providers.Singleton(CaseMetaRepo, io=IOService)
 
 
 # ------------------------------------------------------------------------------------------------ #

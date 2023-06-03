@@ -69,7 +69,8 @@ include = '\.pyi?$'
 
 [tool.pytest.ini_options]
 log_cli = true
-log_cli_level = "INFO"
+log_cli_level = "DEBUG"
+testpaths = "tests"
 
 addopts = """\
     --cov bcd \
