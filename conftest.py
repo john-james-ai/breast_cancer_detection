@@ -11,7 +11,7 @@
 # URL        : https://github.com/john-james-ai/breast_cancer_detection                            #
 # ------------------------------------------------------------------------------------------------ #
 # Created    : Tuesday May 30th 2023 11:25:42 pm                                                   #
-# Modified   : Thursday June 1st 2023 10:34:43 pm                                                  #
+# Modified   : Saturday June 3rd 2023 01:20:28 am                                                  #
 # ------------------------------------------------------------------------------------------------ #
 # License    : MIT License                                                                         #
 # Copyright  : (c) 2023 John James                                                                 #
@@ -23,11 +23,14 @@ import pytest
 import pandas as pd
 import dotenv
 
+from bcd.data.repo.registry import SeriesRegistry
 from bcd.container import BCDContainer
 
 # ------------------------------------------------------------------------------------------------ #
 DATAFILE = "tests/data/meta/calc_cases.csv"
-
+DICOMDIR = "tests/data/CBIS-DDSM"
+METADATA = "tests/data/meta/metadata.csv"
+REGISTRY = "tests/data/CBIS-DDSM/registry.csv"
 # ------------------------------------------------------------------------------------------------ #
 collect_ignore_glob = []
 
@@ -38,6 +41,24 @@ collect_ignore_glob = []
 @pytest.fixture(scope="module", autouse=False)
 def dataset():
     return pd.read_csv(DATAFILE)
+
+
+# ------------------------------------------------------------------------------------------------ #
+#                                    REGISTRATIONS                                                 #
+# ------------------------------------------------------------------------------------------------ #
+@pytest.fixture(scope="module", autouse=False)
+def registrations():
+    meta = pd.read_csv(METADATA, index_col=None)
+    regs = meta[meta["file_location"].str.contains("00140")]
+    return regs.to_dict(orient="records")
+
+
+# ------------------------------------------------------------------------------------------------ #
+#                                      REGISTRY                                                    #
+# ------------------------------------------------------------------------------------------------ #
+@pytest.fixture(scope="module", autouse=False)
+def registry():
+    return SeriesRegistry(filepath=REGISTRY, immutable=False)
 
 
 # ------------------------------------------------------------------------------------------------ #

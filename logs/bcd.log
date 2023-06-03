@@ -1,25 +1,808 @@
-[06/02/2023 02:19:21 PM] [DEBUG] [DicomRepo] [dicom] [get_random] : Study uid: 5778    1.3.6.1.4.1.9590.100.1.2.211865636512254829800...
-Name: study_uid, dtype: object
-[06/02/2023 02:20:26 PM] [DEBUG] [DicomRepo] [dicom] [get_random] : Study uid: 2091    1.3.6.1.4.1.9590.100.1.2.425195622312333550741...
-Name: study_uid, dtype: object
-[06/02/2023 02:21:54 PM] [DEBUG] [DicomRepo] [dicom] [get_random] : Study uid: 1.3.6.1.4.1.9590.100.1.2.213975641711449685519255433510124649945
-[06/02/2023 02:23:51 PM] [DEBUG] [DicomRepo] [dicom] [get_random] : Study uid: 1.3.6.1.4.1.9590.100.1.2.21389249412681518824420266363415284605
-[06/02/2023 02:27:12 PM] [DEBUG] [DicomRepo] [dicom] [get_random] : Study uid: 1.3.6.1.4.1.9590.100.1.2.761171611059113341155206812835254218
-[06/02/2023 02:27:12 PM] [DEBUG] [DicomRepo] [dicom] [get] : Metadata:
-{'series_uid': {2026: '1.3.6.1.4.1.9590.100.1.2.411997837113660509620605211302533538204'}, 'collection': {2026: 'CBIS-DDSM'}, '3rd_party_analysis': {2026: nan}, 'data_description_uri': {2026: 'https://doi.org/10.7937/K9/TCIA.2016.7O02S9CY'}, 'subject_id': {2026: 'Calc-Training_P_01339_LEFT_MLO'}, 'study_uid': {2026: '1.3.6.1.4.1.9590.100.1.2.761171611059113341155206812835254218'}, 'study_description': {2026: nan}, 'study_date': {2026: '08-07-2016'}, 'series_description': {2026: 'full mammogram images'}, 'manufacturer': {2026: nan}, 'modality': {2026: 'MG'}, 'sop_class_name': {2026: 'Secondary Capture Image Storage'}, 'sop_class_uid': {2026: '1.2.840.10008.5.1.4.1.1.7'}, 'number_of_images': {2026: 1}, 'file_size': {2026: '24.56 MB'}, 'file_location': {2026: './CBIS-DDSM/Calc-Training_P_01339_LEFT_MLO/08-07-2016-DDSM-54218/1.000000-full mammogram images-38204'}, 'download_timestamp': {2026: '2023-05-24T04:19:53.282'}, 'casetype': {2026: 'calc'}, 'fileset': {2026: 'train'}}
-[06/02/2023 02:28:54 PM] [DEBUG] [DicomRepo] [dicom] [get_random] : Study uid: 1.3.6.1.4.1.9590.100.1.2.371877477712225489332465452803668665812
-[06/02/2023 02:28:54 PM] [DEBUG] [DicomRepo] [dicom] [get] : Metadata:
-[{'series_uid': '1.3.6.1.4.1.9590.100.1.2.160810182611240852821748366541122981706', 'collection': 'CBIS-DDSM', '3rd_party_analysis': nan, 'data_description_uri': 'https://doi.org/10.7937/K9/TCIA.2016.7O02S9CY', 'subject_id': 'Calc-Training_P_00159_LEFT_MLO_1', 'study_uid': '1.3.6.1.4.1.9590.100.1.2.371877477712225489332465452803668665812', 'study_description': nan, 'study_date': '09-06-2017', 'series_description': 'ROI mask images', 'manufacturer': nan, 'modality': 'MG', 'sop_class_name': 'Secondary Capture Image Storage', 'sop_class_uid': '1.2.840.10008.5.1.4.1.1.7', 'number_of_images': 2, 'file_size': '24.00 MB', 'file_location': './CBIS-DDSM/Calc-Training_P_00159_LEFT_MLO_1/09-06-2017-DDSM-65812/1.000000-ROI mask images-81706', 'download_timestamp': '2023-05-24T07:23:10.989', 'casetype': 'calc', 'fileset': 'train'}]
-[06/02/2023 02:29:32 PM] [DEBUG] [DicomRepo] [dicom] [get_random] : Study uid: 1.3.6.1.4.1.9590.100.1.2.324762876613856001435488487812773861218
-[06/02/2023 02:29:32 PM] [DEBUG] [DicomRepo] [dicom] [get] : Metadata:
-{'series_uid': '1.3.6.1.4.1.9590.100.1.2.120975395211240097621301418761201538013', 'collection': 'CBIS-DDSM', '3rd_party_analysis': nan, 'data_description_uri': 'https://doi.org/10.7937/K9/TCIA.2016.7O02S9CY', 'subject_id': 'Calc-Training_P_00268_LEFT_MLO_1', 'study_uid': '1.3.6.1.4.1.9590.100.1.2.324762876613856001435488487812773861218', 'study_description': nan, 'study_date': '09-06-2017', 'series_description': 'ROI mask images', 'manufacturer': nan, 'modality': 'MG', 'sop_class_name': 'Secondary Capture Image Storage', 'sop_class_uid': '1.2.840.10008.5.1.4.1.1.7', 'number_of_images': 2, 'file_size': '17.45 MB', 'file_location': './CBIS-DDSM/Calc-Training_P_00268_LEFT_MLO_1/09-06-2017-DDSM-61218/1.000000-ROI mask images-38013', 'download_timestamp': '2023-05-24T04:36:43.635', 'casetype': 'calc', 'fileset': 'train'}
-[06/02/2023 02:31:01 PM] [DEBUG] [DicomRepo] [dicom] [get_random] : Study uid: 1.3.6.1.4.1.9590.100.1.2.312602420012916946632859434732074583789
-[06/02/2023 02:31:01 PM] [DEBUG] [DicomRepo] [dicom] [get] : Metadata:
-{'series_uid': '1.3.6.1.4.1.9590.100.1.2.307271664512650974022213502811472047069', 'collection': 'CBIS-DDSM', '3rd_party_analysis': nan, 'data_description_uri': 'https://doi.org/10.7937/K9/TCIA.2016.7O02S9CY', 'subject_id': 'Calc-Training_P_00012_LEFT_MLO', 'study_uid': '1.3.6.1.4.1.9590.100.1.2.312602420012916946632859434732074583789', 'study_description': nan, 'study_date': '08-07-2016', 'series_description': 'full mammogram images', 'manufacturer': nan, 'modality': 'MG', 'sop_class_name': 'Secondary Capture Image Storage', 'sop_class_uid': '1.2.840.10008.5.1.4.1.1.7', 'number_of_images': 1, 'file_size': '43.74 MB', 'file_location': './CBIS-DDSM/Calc-Training_P_00012_LEFT_MLO/08-07-2016-DDSM-83789/1.000000-full mammogram images-47069', 'download_timestamp': '2023-05-24T03:32:05.594', 'casetype': 'calc', 'fileset': 'train'}
-[06/02/2023 02:37:45 PM] [DEBUG] [DicomRepo] [dicom] [get_random] : Study uid: 1.3.6.1.4.1.9590.100.1.2.45643779310740916510589236633196474105
-[06/02/2023 02:37:45 PM] [DEBUG] [DicomRepo] [dicom] [get] : Metadata:
-{'series_uid': '1.3.6.1.4.1.9590.100.1.2.89997464412631112432674315562976939358', 'collection': 'CBIS-DDSM', '3rd_party_analysis': nan, 'data_description_uri': 'https://doi.org/10.7937/K9/TCIA.2016.7O02S9CY', 'subject_id': 'Calc-Training_P_00529_RIGHT_MLO_2', 'study_uid': '1.3.6.1.4.1.9590.100.1.2.45643779310740916510589236633196474105', 'study_description': nan, 'study_date': '09-06-2017', 'series_description': 'ROI mask images', 'manufacturer': nan, 'modality': 'MG', 'sop_class_name': 'Secondary Capture Image Storage', 'sop_class_uid': '1.2.840.10008.5.1.4.1.1.7', 'number_of_images': 2, 'file_size': '14.01 MB', 'file_location': './CBIS-DDSM/Calc-Training_P_00529_RIGHT_MLO_2/09-06-2017-DDSM-74105/1.000000-ROI mask images-39358', 'download_timestamp': '2023-05-24T06:29:14.266', 'casetype': 'calc', 'fileset': 'train'}
-[06/02/2023 02:40:15 PM] [DEBUG] [DicomRepo] [dicom] [get_random] : Study uid: 1.3.6.1.4.1.9590.100.1.2.381990803111197240907053869240778192730
-[06/02/2023 02:40:15 PM] [DEBUG] [DicomRepo] [dicom] [get] : Metadata:
-{'series_uid': '1.3.6.1.4.1.9590.100.1.2.326711620811888171315511763670145940189', 'collection': 'CBIS-DDSM', '3rd_party_analysis': nan, 'data_description_uri': 'https://doi.org/10.7937/K9/TCIA.2016.7O02S9CY', 'subject_id': 'Calc-Training_P_00048_RIGHT_CC_1', 'study_uid': '1.3.6.1.4.1.9590.100.1.2.381990803111197240907053869240778192730', 'study_description': nan, 'study_date': '09-06-2017', 'series_description': 'ROI mask images', 'manufacturer': nan, 'modality': 'MG', 'sop_class_name': 'Secondary Capture Image Storage', 'sop_class_uid': '1.2.840.10008.5.1.4.1.1.7', 'number_of_images': 2, 'file_size': '22.88 MB', 'file_location': './CBIS-DDSM/Calc-Training_P_00048_RIGHT_CC_1/09-06-2017-DDSM-92730/1.000000-ROI mask images-40189', 'download_timestamp': '2023-05-24T03:35:58.669', 'casetype': 'calc', 'fileset': 'train'}
-[06/02/2023 02:40:15 PM] [ERROR] [DicomRepo] [dicom] [_read] : Unable to read files outside of the repository base directory: data/raw/CBIS-DDSM-All-doiJNLP-zzWs5zfZ.
+[06/03/2023 12:54:41 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+
+Started TestRegistry test_add at 12:54:41 AM on 06/03/2023
+[06/03/2023 12:54:41 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+====================================================================================================
+[06/03/2023 12:54:41 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+
+Started TestRegistry test_get at 12:54:41 AM on 06/03/2023
+[06/03/2023 12:54:41 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+====================================================================================================
+[06/03/2023 12:54:42 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+
+Started TestRegistry test_get_uids_count at 12:54:42 AM on 06/03/2023
+[06/03/2023 12:54:42 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+====================================================================================================
+[06/03/2023 12:54:42 AM] [INFO] [test_registry] [test_registry] [test_update] : 
+
+Started TestRegistry test_update at 12:54:42 AM on 06/03/2023
+[06/03/2023 12:54:42 AM] [INFO] [test_registry] [test_registry] [test_update] : 
+====================================================================================================
+[06/03/2023 12:54:42 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+
+Started TestRegistry test_remove at 12:54:42 AM on 06/03/2023
+[06/03/2023 12:54:42 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+====================================================================================================
+[06/03/2023 12:55:53 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+
+Started TestRegistry test_add at 12:55:53 AM on 06/03/2023
+[06/03/2023 12:55:53 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+====================================================================================================
+[06/03/2023 12:55:54 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+
+Started TestRegistry test_get at 12:55:54 AM on 06/03/2023
+[06/03/2023 12:55:54 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+====================================================================================================
+[06/03/2023 12:55:54 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+
+Started TestRegistry test_get_uids_count at 12:55:54 AM on 06/03/2023
+[06/03/2023 12:55:54 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+====================================================================================================
+[06/03/2023 12:55:55 AM] [INFO] [test_registry] [test_registry] [test_update] : 
+
+Started TestRegistry test_update at 12:55:55 AM on 06/03/2023
+[06/03/2023 12:55:55 AM] [INFO] [test_registry] [test_registry] [test_update] : 
+====================================================================================================
+[06/03/2023 12:55:55 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+
+Started TestRegistry test_remove at 12:55:55 AM on 06/03/2023
+[06/03/2023 12:55:55 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+====================================================================================================
+[06/03/2023 12:57:56 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+
+Started TestRegistry test_add at 12:57:56 AM on 06/03/2023
+[06/03/2023 12:57:56 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+====================================================================================================
+[06/03/2023 12:57:57 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+
+Started TestRegistry test_get at 12:57:57 AM on 06/03/2023
+[06/03/2023 12:57:57 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+====================================================================================================
+[06/03/2023 12:57:57 AM] [ERROR] [SeriesRegistry] [registry] [get] : The series_uid, 1.3.6.1.4.1.9590.100.1.2.122455910211950267836638642301512986260 does not exist.
+[06/03/2023 12:57:57 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+
+Started TestRegistry test_get_uids_count at 12:57:57 AM on 06/03/2023
+[06/03/2023 12:57:57 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+====================================================================================================
+[06/03/2023 12:57:57 AM] [INFO] [test_registry] [test_registry] [test_update] : 
+
+Started TestRegistry test_update at 12:57:57 AM on 06/03/2023
+[06/03/2023 12:57:57 AM] [INFO] [test_registry] [test_registry] [test_update] : 
+====================================================================================================
+[06/03/2023 12:57:58 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+
+Started TestRegistry test_remove at 12:57:58 AM on 06/03/2023
+[06/03/2023 12:57:58 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+====================================================================================================
+[06/03/2023 01:01:29 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+
+Started TestRegistry test_add at 01:01:29 AM on 06/03/2023
+[06/03/2023 01:01:29 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+====================================================================================================
+[06/03/2023 01:01:29 AM] [ERROR] [SeriesRegistry] [registry] [add] : Series uid 1.3.6.1.4.1.9590.100.1.2.411966477213014359701383742861949912247 already exists.
+[06/03/2023 01:01:29 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+
+Started TestRegistry test_get at 01:01:29 AM on 06/03/2023
+[06/03/2023 01:01:29 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+====================================================================================================
+[06/03/2023 01:01:29 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+
+Started TestRegistry test_get_uids_count at 01:01:29 AM on 06/03/2023
+[06/03/2023 01:01:29 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+====================================================================================================
+[06/03/2023 01:01:29 AM] [INFO] [test_registry] [test_registry] [test_update] : 
+
+Started TestRegistry test_update at 01:01:29 AM on 06/03/2023
+[06/03/2023 01:01:29 AM] [INFO] [test_registry] [test_registry] [test_update] : 
+====================================================================================================
+[06/03/2023 01:01:29 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+
+Started TestRegistry test_remove at 01:01:29 AM on 06/03/2023
+[06/03/2023 01:01:29 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+====================================================================================================
+[06/03/2023 01:03:02 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+
+Started TestRegistry test_setup at 01:03:02 AM on 06/03/2023
+[06/03/2023 01:03:02 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+====================================================================================================
+[06/03/2023 01:03:02 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+	Completed TestRegistry test_setup in 0.1 seconds at 01:03:02 AM on 06/03/2023
+[06/03/2023 01:03:02 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:03:02 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+
+Started TestRegistry test_add at 01:03:02 AM on 06/03/2023
+[06/03/2023 01:03:02 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+====================================================================================================
+[06/03/2023 01:03:02 AM] [ERROR] [SeriesRegistry] [registry] [add] : Series uid 1.3.6.1.4.1.9590.100.1.2.411966477213014359701383742861949912247 already exists.
+[06/03/2023 01:03:02 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+
+Started TestRegistry test_get at 01:03:02 AM on 06/03/2023
+[06/03/2023 01:03:02 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+====================================================================================================
+[06/03/2023 01:03:02 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+
+Started TestRegistry test_get_uids_count at 01:03:02 AM on 06/03/2023
+[06/03/2023 01:03:02 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+====================================================================================================
+[06/03/2023 01:03:02 AM] [INFO] [test_registry] [test_registry] [test_update] : 
+
+Started TestRegistry test_update at 01:03:02 AM on 06/03/2023
+[06/03/2023 01:03:02 AM] [INFO] [test_registry] [test_registry] [test_update] : 
+====================================================================================================
+[06/03/2023 01:03:02 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+
+Started TestRegistry test_remove at 01:03:02 AM on 06/03/2023
+[06/03/2023 01:03:02 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+====================================================================================================
+[06/03/2023 01:19:46 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+
+Started TestRegistry test_setup at 01:19:46 AM on 06/03/2023
+[06/03/2023 01:19:46 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+====================================================================================================
+[06/03/2023 01:19:46 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+	Completed TestRegistry test_setup in 0.1 seconds at 01:19:46 AM on 06/03/2023
+[06/03/2023 01:19:46 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:19:47 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+
+Started TestRegistry test_get_uids_count at 01:19:47 AM on 06/03/2023
+[06/03/2023 01:19:47 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+====================================================================================================
+[06/03/2023 01:19:47 AM] [INFO] [test_registry] [test_registry] [test_update] : 
+
+Started TestRegistry test_update at 01:19:47 AM on 06/03/2023
+[06/03/2023 01:19:47 AM] [INFO] [test_registry] [test_registry] [test_update] : 
+====================================================================================================
+[06/03/2023 01:19:48 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+
+Started TestRegistry test_remove at 01:19:48 AM on 06/03/2023
+[06/03/2023 01:19:48 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+====================================================================================================
+[06/03/2023 01:20:37 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+
+Started TestRegistry test_setup at 01:20:37 AM on 06/03/2023
+[06/03/2023 01:20:37 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+====================================================================================================
+[06/03/2023 01:20:37 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+	Completed TestRegistry test_setup in 0.1 seconds at 01:20:37 AM on 06/03/2023
+[06/03/2023 01:20:37 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:20:37 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+
+Started TestRegistry test_add at 01:20:37 AM on 06/03/2023
+[06/03/2023 01:20:37 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+====================================================================================================
+[06/03/2023 01:20:37 AM] [ERROR] [SeriesRegistry] [registry] [add] : Series uid 1.3.6.1.4.1.9590.100.1.2.274130392610570391808711256560834154926 already exists.
+[06/03/2023 01:20:37 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+Completed TestRegistry test_add in 0.1 seconds at 01:20:37 AM on 06/03/2023
+[06/03/2023 01:20:37 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:20:37 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+
+Started TestRegistry test_get at 01:20:37 AM on 06/03/2023
+[06/03/2023 01:20:37 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+====================================================================================================
+[06/03/2023 01:20:37 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+
+Started TestRegistry test_get_uids_count at 01:20:37 AM on 06/03/2023
+[06/03/2023 01:20:37 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+====================================================================================================
+[06/03/2023 01:20:37 AM] [INFO] [test_registry] [test_registry] [test_update] : 
+
+Started TestRegistry test_update at 01:20:37 AM on 06/03/2023
+[06/03/2023 01:20:37 AM] [INFO] [test_registry] [test_registry] [test_update] : 
+====================================================================================================
+[06/03/2023 01:20:37 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+
+Started TestRegistry test_remove at 01:20:37 AM on 06/03/2023
+[06/03/2023 01:20:37 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+====================================================================================================
+[06/03/2023 01:22:06 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+
+Started TestRegistry test_setup at 01:22:06 AM on 06/03/2023
+[06/03/2023 01:22:06 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+====================================================================================================
+[06/03/2023 01:22:06 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+	Completed TestRegistry test_setup in 0.1 seconds at 01:22:06 AM on 06/03/2023
+[06/03/2023 01:22:06 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:22:06 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+
+Started TestRegistry test_add at 01:22:06 AM on 06/03/2023
+[06/03/2023 01:22:06 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+====================================================================================================
+[06/03/2023 01:22:06 AM] [ERROR] [SeriesRegistry] [registry] [add] : Series uid 1.3.6.1.4.1.9590.100.1.2.274130392610570391808711256560834154926 already exists.
+[06/03/2023 01:22:06 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+Completed TestRegistry test_add in 0.1 seconds at 01:22:06 AM on 06/03/2023
+[06/03/2023 01:22:06 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:22:06 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+
+Started TestRegistry test_get at 01:22:06 AM on 06/03/2023
+[06/03/2023 01:22:06 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+====================================================================================================
+[06/03/2023 01:22:06 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+
+Started TestRegistry test_get_uids_count at 01:22:06 AM on 06/03/2023
+[06/03/2023 01:22:06 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+====================================================================================================
+[06/03/2023 01:22:06 AM] [INFO] [test_registry] [test_registry] [test_update] : 
+
+Started TestRegistry test_update at 01:22:06 AM on 06/03/2023
+[06/03/2023 01:22:06 AM] [INFO] [test_registry] [test_registry] [test_update] : 
+====================================================================================================
+[06/03/2023 01:22:06 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+
+Started TestRegistry test_remove at 01:22:06 AM on 06/03/2023
+[06/03/2023 01:22:06 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+====================================================================================================
+[06/03/2023 01:23:08 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+
+Started TestRegistry test_setup at 01:23:08 AM on 06/03/2023
+[06/03/2023 01:23:08 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+====================================================================================================
+[06/03/2023 01:23:08 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+	Completed TestRegistry test_setup in 0.1 seconds at 01:23:08 AM on 06/03/2023
+[06/03/2023 01:23:08 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:23:08 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+
+Started TestRegistry test_add at 01:23:08 AM on 06/03/2023
+[06/03/2023 01:23:08 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+====================================================================================================
+[06/03/2023 01:23:08 AM] [ERROR] [SeriesRegistry] [registry] [add] : Series uid 1.3.6.1.4.1.9590.100.1.2.274130392610570391808711256560834154926 already exists.
+[06/03/2023 01:23:08 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+Completed TestRegistry test_add in 0.1 seconds at 01:23:08 AM on 06/03/2023
+[06/03/2023 01:23:08 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:23:08 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+
+Started TestRegistry test_get at 01:23:08 AM on 06/03/2023
+[06/03/2023 01:23:08 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+====================================================================================================
+[06/03/2023 01:23:08 AM] [ERROR] [SeriesRegistry] [registry] [get] : The series_uid, xya does not exist.
+[06/03/2023 01:23:08 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+	Completed TestRegistry test_get in 0.0 seconds at 01:23:08 AM on 06/03/2023
+[06/03/2023 01:23:08 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:23:08 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+
+Started TestRegistry test_get_uids_count at 01:23:08 AM on 06/03/2023
+[06/03/2023 01:23:08 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+====================================================================================================
+[06/03/2023 01:23:08 AM] [INFO] [test_registry] [test_registry] [test_update] : 
+
+Started TestRegistry test_update at 01:23:08 AM on 06/03/2023
+[06/03/2023 01:23:08 AM] [INFO] [test_registry] [test_registry] [test_update] : 
+====================================================================================================
+[06/03/2023 01:23:08 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+
+Started TestRegistry test_remove at 01:23:08 AM on 06/03/2023
+[06/03/2023 01:23:08 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+====================================================================================================
+[06/03/2023 01:24:05 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+
+Started TestRegistry test_setup at 01:24:04 AM on 06/03/2023
+[06/03/2023 01:24:05 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+====================================================================================================
+[06/03/2023 01:24:05 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+	Completed TestRegistry test_setup in 0.1 seconds at 01:24:05 AM on 06/03/2023
+[06/03/2023 01:24:05 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:24:05 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+
+Started TestRegistry test_add at 01:24:05 AM on 06/03/2023
+[06/03/2023 01:24:05 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+====================================================================================================
+[06/03/2023 01:24:05 AM] [ERROR] [SeriesRegistry] [registry] [add] : Series uid 1.3.6.1.4.1.9590.100.1.2.274130392610570391808711256560834154926 already exists.
+[06/03/2023 01:24:05 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+Completed TestRegistry test_add in 0.1 seconds at 01:24:05 AM on 06/03/2023
+[06/03/2023 01:24:05 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:24:05 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+
+Started TestRegistry test_get at 01:24:05 AM on 06/03/2023
+[06/03/2023 01:24:05 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+====================================================================================================
+[06/03/2023 01:24:05 AM] [ERROR] [SeriesRegistry] [registry] [get] : The series_uid, xya does not exist.
+[06/03/2023 01:24:05 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+	Completed TestRegistry test_get in 0.0 seconds at 01:24:05 AM on 06/03/2023
+[06/03/2023 01:24:05 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:24:05 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+
+Started TestRegistry test_get_uids_count at 01:24:05 AM on 06/03/2023
+[06/03/2023 01:24:05 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+====================================================================================================
+[06/03/2023 01:24:05 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+	Completed TestRegistry test_get_uids_count in 0.0 seconds at 01:24:05 AM on 06/03/2023
+[06/03/2023 01:24:05 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:24:05 AM] [INFO] [test_registry] [test_registry] [test_update] : 
+
+Started TestRegistry test_update at 01:24:05 AM on 06/03/2023
+[06/03/2023 01:24:05 AM] [INFO] [test_registry] [test_registry] [test_update] : 
+====================================================================================================
+[06/03/2023 01:24:05 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+
+Started TestRegistry test_remove at 01:24:05 AM on 06/03/2023
+[06/03/2023 01:24:05 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+====================================================================================================
+[06/03/2023 01:24:05 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+	Completed TestRegistry test_remove in 0.0 seconds at 01:24:05 AM on 06/03/2023
+[06/03/2023 01:24:05 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:25:44 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+
+Started TestRegistry test_setup at 01:25:44 AM on 06/03/2023
+[06/03/2023 01:25:44 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+====================================================================================================
+[06/03/2023 01:25:44 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+	Completed TestRegistry test_setup in 0.1 seconds at 01:25:44 AM on 06/03/2023
+[06/03/2023 01:25:44 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:25:44 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+
+Started TestRegistry test_add at 01:25:44 AM on 06/03/2023
+[06/03/2023 01:25:44 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+====================================================================================================
+[06/03/2023 01:25:44 AM] [ERROR] [SeriesRegistry] [registry] [add] : Series uid 1.3.6.1.4.1.9590.100.1.2.274130392610570391808711256560834154926 already exists.
+[06/03/2023 01:25:44 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+Completed TestRegistry test_add in 0.1 seconds at 01:25:44 AM on 06/03/2023
+[06/03/2023 01:25:44 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:25:44 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+
+Started TestRegistry test_get at 01:25:44 AM on 06/03/2023
+[06/03/2023 01:25:44 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+====================================================================================================
+[06/03/2023 01:25:44 AM] [ERROR] [SeriesRegistry] [registry] [get] : The series_uid, xya does not exist.
+[06/03/2023 01:25:44 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+	Completed TestRegistry test_get in 0.0 seconds at 01:25:44 AM on 06/03/2023
+[06/03/2023 01:25:44 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:25:44 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+
+Started TestRegistry test_get_uids_count at 01:25:44 AM on 06/03/2023
+[06/03/2023 01:25:44 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+====================================================================================================
+[06/03/2023 01:25:44 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+	Completed TestRegistry test_get_uids_count in 0.0 seconds at 01:25:44 AM on 06/03/2023
+[06/03/2023 01:25:44 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:25:44 AM] [INFO] [test_registry] [test_registry] [test_update] : 
+
+Started TestRegistry test_update at 01:25:44 AM on 06/03/2023
+[06/03/2023 01:25:44 AM] [INFO] [test_registry] [test_registry] [test_update] : 
+====================================================================================================
+[06/03/2023 01:25:44 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+
+Started TestRegistry test_remove at 01:25:44 AM on 06/03/2023
+[06/03/2023 01:25:44 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+====================================================================================================
+[06/03/2023 01:25:44 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+	Completed TestRegistry test_remove in 0.0 seconds at 01:25:44 AM on 06/03/2023
+[06/03/2023 01:25:44 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:27:42 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+
+Started TestRegistry test_setup at 01:27:42 AM on 06/03/2023
+[06/03/2023 01:27:42 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+====================================================================================================
+[06/03/2023 01:27:42 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+	Completed TestRegistry test_setup in 0.1 seconds at 01:27:42 AM on 06/03/2023
+[06/03/2023 01:27:42 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:27:42 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+
+Started TestRegistry test_add at 01:27:42 AM on 06/03/2023
+[06/03/2023 01:27:42 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+====================================================================================================
+[06/03/2023 01:27:42 AM] [ERROR] [SeriesRegistry] [registry] [add] : Series uid 1.3.6.1.4.1.9590.100.1.2.274130392610570391808711256560834154926 already exists.
+[06/03/2023 01:27:42 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+Completed TestRegistry test_add in 0.1 seconds at 01:27:42 AM on 06/03/2023
+[06/03/2023 01:27:42 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:27:42 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+
+Started TestRegistry test_get at 01:27:42 AM on 06/03/2023
+[06/03/2023 01:27:42 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+====================================================================================================
+[06/03/2023 01:27:42 AM] [ERROR] [SeriesRegistry] [registry] [get] : The series_uid, xya does not exist.
+[06/03/2023 01:27:42 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+	Completed TestRegistry test_get in 0.1 seconds at 01:27:42 AM on 06/03/2023
+[06/03/2023 01:27:42 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:27:42 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+
+Started TestRegistry test_get_uids_count at 01:27:42 AM on 06/03/2023
+[06/03/2023 01:27:42 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+====================================================================================================
+[06/03/2023 01:27:42 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+	Completed TestRegistry test_get_uids_count in 0.0 seconds at 01:27:42 AM on 06/03/2023
+[06/03/2023 01:27:42 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:27:42 AM] [INFO] [test_registry] [test_registry] [test_update] : 
+
+Started TestRegistry test_update at 01:27:42 AM on 06/03/2023
+[06/03/2023 01:27:42 AM] [INFO] [test_registry] [test_registry] [test_update] : 
+====================================================================================================
+[06/03/2023 01:27:42 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+
+Started TestRegistry test_remove at 01:27:42 AM on 06/03/2023
+[06/03/2023 01:27:42 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+====================================================================================================
+[06/03/2023 01:27:42 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+	Completed TestRegistry test_remove in 0.0 seconds at 01:27:42 AM on 06/03/2023
+[06/03/2023 01:27:42 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:28:44 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+
+Started TestRegistry test_setup at 01:28:44 AM on 06/03/2023
+[06/03/2023 01:28:44 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+====================================================================================================
+[06/03/2023 01:28:44 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+	Completed TestRegistry test_setup in 0.1 seconds at 01:28:44 AM on 06/03/2023
+[06/03/2023 01:28:44 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:28:44 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+
+Started TestRegistry test_add at 01:28:44 AM on 06/03/2023
+[06/03/2023 01:28:44 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+====================================================================================================
+[06/03/2023 01:28:44 AM] [ERROR] [SeriesRegistry] [registry] [add] : Series uid 1.3.6.1.4.1.9590.100.1.2.274130392610570391808711256560834154926 already exists.
+[06/03/2023 01:28:44 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+Completed TestRegistry test_add in 0.1 seconds at 01:28:44 AM on 06/03/2023
+[06/03/2023 01:28:44 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:28:44 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+
+Started TestRegistry test_get at 01:28:44 AM on 06/03/2023
+[06/03/2023 01:28:44 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+====================================================================================================
+[06/03/2023 01:28:44 AM] [ERROR] [SeriesRegistry] [registry] [get] : The series_uid, xya does not exist.
+[06/03/2023 01:28:44 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+	Completed TestRegistry test_get in 0.1 seconds at 01:28:44 AM on 06/03/2023
+[06/03/2023 01:28:44 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:28:44 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+
+Started TestRegistry test_get_uids_count at 01:28:44 AM on 06/03/2023
+[06/03/2023 01:28:44 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+====================================================================================================
+[06/03/2023 01:28:44 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+	Completed TestRegistry test_get_uids_count in 0.0 seconds at 01:28:44 AM on 06/03/2023
+[06/03/2023 01:28:44 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:28:44 AM] [INFO] [test_registry] [test_registry] [test_update] : 
+
+Started TestRegistry test_update at 01:28:44 AM on 06/03/2023
+[06/03/2023 01:28:44 AM] [INFO] [test_registry] [test_registry] [test_update] : 
+====================================================================================================
+[06/03/2023 01:28:44 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+
+Started TestRegistry test_remove at 01:28:44 AM on 06/03/2023
+[06/03/2023 01:28:44 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+====================================================================================================
+[06/03/2023 01:28:44 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+	Completed TestRegistry test_remove in 0.0 seconds at 01:28:44 AM on 06/03/2023
+[06/03/2023 01:28:44 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:30:42 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+
+Started TestRegistry test_setup at 01:30:42 AM on 06/03/2023
+[06/03/2023 01:30:42 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+====================================================================================================
+[06/03/2023 01:30:42 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+	Completed TestRegistry test_setup in 0.1 seconds at 01:30:42 AM on 06/03/2023
+[06/03/2023 01:30:42 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:30:42 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+
+Started TestRegistry test_add at 01:30:42 AM on 06/03/2023
+[06/03/2023 01:30:42 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+====================================================================================================
+[06/03/2023 01:30:42 AM] [ERROR] [SeriesRegistry] [registry] [add] : Series uid 1.3.6.1.4.1.9590.100.1.2.274130392610570391808711256560834154926 already exists.
+[06/03/2023 01:30:42 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+Completed TestRegistry test_add in 0.1 seconds at 01:30:42 AM on 06/03/2023
+[06/03/2023 01:30:42 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:30:42 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+
+Started TestRegistry test_get at 01:30:42 AM on 06/03/2023
+[06/03/2023 01:30:42 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+====================================================================================================
+[06/03/2023 01:30:42 AM] [ERROR] [SeriesRegistry] [registry] [get] : The series_uid, xya does not exist.
+[06/03/2023 01:30:42 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+	Completed TestRegistry test_get in 0.0 seconds at 01:30:42 AM on 06/03/2023
+[06/03/2023 01:30:42 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:30:42 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+
+Started TestRegistry test_get_uids_count at 01:30:42 AM on 06/03/2023
+[06/03/2023 01:30:42 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+====================================================================================================
+[06/03/2023 01:30:42 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+	Completed TestRegistry test_get_uids_count in 0.0 seconds at 01:30:42 AM on 06/03/2023
+[06/03/2023 01:30:42 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:30:42 AM] [INFO] [test_registry] [test_registry] [test_update] : 
+
+Started TestRegistry test_update at 01:30:42 AM on 06/03/2023
+[06/03/2023 01:30:42 AM] [INFO] [test_registry] [test_registry] [test_update] : 
+====================================================================================================
+[06/03/2023 01:30:42 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+
+Started TestRegistry test_remove at 01:30:42 AM on 06/03/2023
+[06/03/2023 01:30:42 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+====================================================================================================
+[06/03/2023 01:30:42 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+	Completed TestRegistry test_remove in 0.0 seconds at 01:30:42 AM on 06/03/2023
+[06/03/2023 01:30:42 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:31:46 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+
+Started TestRegistry test_setup at 01:31:46 AM on 06/03/2023
+[06/03/2023 01:31:46 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+====================================================================================================
+[06/03/2023 01:31:46 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+	Completed TestRegistry test_setup in 0.1 seconds at 01:31:46 AM on 06/03/2023
+[06/03/2023 01:31:46 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:31:46 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+
+Started TestRegistry test_add at 01:31:46 AM on 06/03/2023
+[06/03/2023 01:31:46 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+====================================================================================================
+[06/03/2023 01:31:46 AM] [ERROR] [SeriesRegistry] [registry] [add] : Series uid 1.3.6.1.4.1.9590.100.1.2.274130392610570391808711256560834154926 already exists.
+[06/03/2023 01:31:46 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+Completed TestRegistry test_add in 0.1 seconds at 01:31:46 AM on 06/03/2023
+[06/03/2023 01:31:46 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:31:46 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+
+Started TestRegistry test_get at 01:31:46 AM on 06/03/2023
+[06/03/2023 01:31:46 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+====================================================================================================
+[06/03/2023 01:31:46 AM] [ERROR] [SeriesRegistry] [registry] [get] : The series_uid, xya does not exist.
+[06/03/2023 01:31:46 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+	Completed TestRegistry test_get in 0.0 seconds at 01:31:46 AM on 06/03/2023
+[06/03/2023 01:31:46 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:31:46 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+
+Started TestRegistry test_get_uids_count at 01:31:46 AM on 06/03/2023
+[06/03/2023 01:31:46 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+====================================================================================================
+[06/03/2023 01:31:46 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+	Completed TestRegistry test_get_uids_count in 0.0 seconds at 01:31:46 AM on 06/03/2023
+[06/03/2023 01:31:46 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:31:46 AM] [INFO] [test_registry] [test_registry] [test_update] : 
+
+Started TestRegistry test_update at 01:31:46 AM on 06/03/2023
+[06/03/2023 01:31:46 AM] [INFO] [test_registry] [test_registry] [test_update] : 
+====================================================================================================
+[06/03/2023 01:31:47 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+
+Started TestRegistry test_remove at 01:31:47 AM on 06/03/2023
+[06/03/2023 01:31:47 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+====================================================================================================
+[06/03/2023 01:31:47 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+	Completed TestRegistry test_remove in 0.0 seconds at 01:31:47 AM on 06/03/2023
+[06/03/2023 01:31:47 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:32:35 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+
+Started TestRegistry test_setup at 01:32:35 AM on 06/03/2023
+[06/03/2023 01:32:35 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+====================================================================================================
+[06/03/2023 01:32:35 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+	Completed TestRegistry test_setup in 0.1 seconds at 01:32:35 AM on 06/03/2023
+[06/03/2023 01:32:35 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:32:35 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+
+Started TestRegistry test_add at 01:32:35 AM on 06/03/2023
+[06/03/2023 01:32:35 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+====================================================================================================
+[06/03/2023 01:32:35 AM] [ERROR] [SeriesRegistry] [registry] [add] : Series uid 1.3.6.1.4.1.9590.100.1.2.274130392610570391808711256560834154926 already exists.
+[06/03/2023 01:32:35 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+Completed TestRegistry test_add in 0.3 seconds at 01:32:35 AM on 06/03/2023
+[06/03/2023 01:32:35 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:32:35 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+
+Started TestRegistry test_get at 01:32:35 AM on 06/03/2023
+[06/03/2023 01:32:35 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+====================================================================================================
+[06/03/2023 01:32:36 AM] [ERROR] [SeriesRegistry] [registry] [get] : The series_uid, xya does not exist.
+[06/03/2023 01:32:36 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+	Completed TestRegistry test_get in 0.2 seconds at 01:32:36 AM on 06/03/2023
+[06/03/2023 01:32:36 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:32:36 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+
+Started TestRegistry test_get_uids_count at 01:32:36 AM on 06/03/2023
+[06/03/2023 01:32:36 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+====================================================================================================
+[06/03/2023 01:32:36 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+	Completed TestRegistry test_get_uids_count in 0.0 seconds at 01:32:36 AM on 06/03/2023
+[06/03/2023 01:32:36 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:32:36 AM] [INFO] [test_registry] [test_registry] [test_update] : 
+
+Started TestRegistry test_update at 01:32:36 AM on 06/03/2023
+[06/03/2023 01:32:36 AM] [INFO] [test_registry] [test_registry] [test_update] : 
+====================================================================================================
+[06/03/2023 01:32:36 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+
+Started TestRegistry test_remove at 01:32:36 AM on 06/03/2023
+[06/03/2023 01:32:36 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+====================================================================================================
+[06/03/2023 01:32:36 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+	Completed TestRegistry test_remove in 0.1 seconds at 01:32:36 AM on 06/03/2023
+[06/03/2023 01:32:36 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:42:33 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+
+Started TestRegistry test_setup at 01:42:33 AM on 06/03/2023
+[06/03/2023 01:42:33 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+====================================================================================================
+[06/03/2023 01:42:33 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+	Completed TestRegistry test_setup in 0.1 seconds at 01:42:33 AM on 06/03/2023
+[06/03/2023 01:42:33 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:42:33 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+
+Started TestRegistry test_add at 01:42:33 AM on 06/03/2023
+[06/03/2023 01:42:33 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+====================================================================================================
+[06/03/2023 01:42:33 AM] [ERROR] [SeriesRegistry] [registry] [add] : Series uid 1.3.6.1.4.1.9590.100.1.2.274130392610570391808711256560834154926 already exists.
+[06/03/2023 01:42:33 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+Completed TestRegistry test_add in 0.2 seconds at 01:42:33 AM on 06/03/2023
+[06/03/2023 01:42:33 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:42:33 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+
+Started TestRegistry test_get at 01:42:33 AM on 06/03/2023
+[06/03/2023 01:42:33 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+====================================================================================================
+[06/03/2023 01:42:33 AM] [ERROR] [SeriesRegistry] [registry] [get] : The series_uid, xya does not exist.
+[06/03/2023 01:42:33 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+	Completed TestRegistry test_get in 0.1 seconds at 01:42:33 AM on 06/03/2023
+[06/03/2023 01:42:33 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:42:33 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+
+Started TestRegistry test_get_uids_count at 01:42:33 AM on 06/03/2023
+[06/03/2023 01:42:33 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+====================================================================================================
+[06/03/2023 01:42:33 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+	Completed TestRegistry test_get_uids_count in 0.0 seconds at 01:42:33 AM on 06/03/2023
+[06/03/2023 01:42:33 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:42:33 AM] [INFO] [test_registry] [test_registry] [test_update] : 
+
+Started TestRegistry test_update at 01:42:33 AM on 06/03/2023
+[06/03/2023 01:42:33 AM] [INFO] [test_registry] [test_registry] [test_update] : 
+====================================================================================================
+[06/03/2023 01:42:34 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+
+Started TestRegistry test_remove at 01:42:34 AM on 06/03/2023
+[06/03/2023 01:42:34 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+====================================================================================================
+[06/03/2023 01:42:34 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+	Completed TestRegistry test_remove in 0.1 seconds at 01:42:34 AM on 06/03/2023
+[06/03/2023 01:42:34 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:44:19 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+
+Started TestRegistry test_setup at 01:44:19 AM on 06/03/2023
+[06/03/2023 01:44:19 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+====================================================================================================
+[06/03/2023 01:44:19 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+	Completed TestRegistry test_setup in 0.1 seconds at 01:44:19 AM on 06/03/2023
+[06/03/2023 01:44:19 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:44:20 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+
+Started TestRegistry test_add at 01:44:20 AM on 06/03/2023
+[06/03/2023 01:44:20 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+====================================================================================================
+[06/03/2023 01:44:20 AM] [ERROR] [SeriesRegistry] [registry] [add] : Series uid 1.3.6.1.4.1.9590.100.1.2.274130392610570391808711256560834154926 already exists.
+[06/03/2023 01:44:20 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+Completed TestRegistry test_add in 0.2 seconds at 01:44:20 AM on 06/03/2023
+[06/03/2023 01:44:20 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:44:20 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+
+Started TestRegistry test_get at 01:44:20 AM on 06/03/2023
+[06/03/2023 01:44:20 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+====================================================================================================
+[06/03/2023 01:44:20 AM] [ERROR] [SeriesRegistry] [registry] [get] : The series_uid, xya does not exist.
+[06/03/2023 01:44:20 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+	Completed TestRegistry test_get in 0.2 seconds at 01:44:20 AM on 06/03/2023
+[06/03/2023 01:44:20 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:44:20 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+
+Started TestRegistry test_get_uids_count at 01:44:20 AM on 06/03/2023
+[06/03/2023 01:44:20 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+====================================================================================================
+[06/03/2023 01:44:20 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+	Completed TestRegistry test_get_uids_count in 0.0 seconds at 01:44:20 AM on 06/03/2023
+[06/03/2023 01:44:20 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:44:20 AM] [INFO] [test_registry] [test_registry] [test_update] : 
+
+Started TestRegistry test_update at 01:44:20 AM on 06/03/2023
+[06/03/2023 01:44:20 AM] [INFO] [test_registry] [test_registry] [test_update] : 
+====================================================================================================
+[06/03/2023 01:44:20 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+
+Started TestRegistry test_remove at 01:44:20 AM on 06/03/2023
+[06/03/2023 01:44:20 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+====================================================================================================
+[06/03/2023 01:44:20 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+	Completed TestRegistry test_remove in 0.1 seconds at 01:44:20 AM on 06/03/2023
+[06/03/2023 01:44:20 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:44:36 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+
+Started TestRegistry test_setup at 01:44:36 AM on 06/03/2023
+[06/03/2023 01:44:36 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+====================================================================================================
+[06/03/2023 01:44:36 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+	Completed TestRegistry test_setup in 0.1 seconds at 01:44:36 AM on 06/03/2023
+[06/03/2023 01:44:36 AM] [INFO] [test_registry] [test_registry] [test_setup] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:44:36 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+
+Started TestRegistry test_add at 01:44:36 AM on 06/03/2023
+[06/03/2023 01:44:36 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+====================================================================================================
+[06/03/2023 01:44:36 AM] [ERROR] [SeriesRegistry] [registry] [add] : Series uid 1.3.6.1.4.1.9590.100.1.2.274130392610570391808711256560834154926 already exists.
+[06/03/2023 01:44:36 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+Completed TestRegistry test_add in 0.2 seconds at 01:44:36 AM on 06/03/2023
+[06/03/2023 01:44:36 AM] [INFO] [test_registry] [test_registry] [test_add] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:44:36 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+
+Started TestRegistry test_get at 01:44:36 AM on 06/03/2023
+[06/03/2023 01:44:36 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+====================================================================================================
+[06/03/2023 01:44:36 AM] [ERROR] [SeriesRegistry] [registry] [get] : The series_uid, xya does not exist.
+[06/03/2023 01:44:36 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+	Completed TestRegistry test_get in 0.2 seconds at 01:44:36 AM on 06/03/2023
+[06/03/2023 01:44:36 AM] [INFO] [test_registry] [test_registry] [test_get] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:44:36 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+
+Started TestRegistry test_get_uids_count at 01:44:36 AM on 06/03/2023
+[06/03/2023 01:44:36 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+====================================================================================================
+[06/03/2023 01:44:36 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+	Completed TestRegistry test_get_uids_count in 0.0 seconds at 01:44:36 AM on 06/03/2023
+[06/03/2023 01:44:36 AM] [INFO] [test_registry] [test_registry] [test_get_uids_count] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:44:36 AM] [INFO] [test_registry] [test_registry] [test_update] : 
+
+Started TestRegistry test_update at 01:44:36 AM on 06/03/2023
+[06/03/2023 01:44:36 AM] [INFO] [test_registry] [test_registry] [test_update] : 
+====================================================================================================
+[06/03/2023 01:44:37 AM] [ERROR] [SeriesRegistry] [registry] [remove] : Series registration for das;ja; not found.
+[06/03/2023 01:44:37 AM] [INFO] [test_registry] [test_registry] [test_update] : 
+	Completed TestRegistry test_update in 0.3 seconds at 01:44:37 AM on 06/03/2023
+[06/03/2023 01:44:37 AM] [INFO] [test_registry] [test_registry] [test_update] : 
+----------------------------------------------------------------------------------------------------
+[06/03/2023 01:44:37 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+
+Started TestRegistry test_remove at 01:44:37 AM on 06/03/2023
+[06/03/2023 01:44:37 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+====================================================================================================
+[06/03/2023 01:44:37 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+	Completed TestRegistry test_remove in 0.1 seconds at 01:44:37 AM on 06/03/2023
+[06/03/2023 01:44:37 AM] [INFO] [test_registry] [test_registry] [test_remove] : 
+----------------------------------------------------------------------------------------------------

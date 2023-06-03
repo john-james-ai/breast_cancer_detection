@@ -11,7 +11,7 @@
 # URL        : https://github.com/john-james-ai/breast_cancer_detection                            #
 # ------------------------------------------------------------------------------------------------ #
 # Created    : Friday June 2nd 2023 02:48:55 pm                                                    #
-# Modified   : Friday June 2nd 2023 05:50:45 pm                                                    #
+# Modified   : Friday June 2nd 2023 09:27:03 pm                                                    #
 # ------------------------------------------------------------------------------------------------ #
 # License    : MIT License                                                                         #
 # Copyright  : (c) 2023 John James                                                                 #
@@ -52,16 +52,14 @@ class Series:
     casetype: str
     fileset: str
     filenames = list[str] = field(default_factor=list)
-    immutable: bool = True
     datasets = list[pydicom.Dataset] = field(default=list)  # list of in-memory pydicom.Datasets
 
     def __post_init__(self) -> None:
         self.images = os.listdir(self.file_location)
-        self.load()
         self._logger = logging.getLogger(f"{self.__class__.__name__}")
 
     @classmethod
-    def create(cls, metadata: pd.Series) -> Series:
+    def create(cls, metadata: dict) -> Series:
         return cls(
             series_uid=metadata["series_uid"],
             collection=metadata["collection"],

@@ -11,7 +11,7 @@
 # URL        : https://github.com/john-james-ai/breast_cancer_detection                            #
 # ------------------------------------------------------------------------------------------------ #
 # Created    : Thursday May 25th 2023 10:26:59 pm                                                  #
-# Modified   : Friday June 2nd 2023 08:33:16 pm                                                    #
+# Modified   : Saturday June 3rd 2023 01:32:30 am                                                  #
 # ------------------------------------------------------------------------------------------------ #
 # License    : MIT License                                                                         #
 # Copyright  : (c) 2023 John James                                                                 #
@@ -38,8 +38,18 @@ class Repo(ABC):
         self._immutable = immutable
         self._logger = logging.getLogger(f"{self.__class__.__name__}")
 
-    @abstractmethod
     @property
+    def immutable(self) -> bool:
+        """Returns the value of the immutability variable."""
+        return self._immutable
+
+    @immutable.setter
+    def immutable(self, immutable: bool) -> None:
+        """Sets the immutability of the Repo"""
+        self._immutable = immutable
+
+    @property
+    @abstractmethod
     def registry(self) -> pd.DataFrame:
         """Returns the registry for the repository"""
 
@@ -83,8 +93,13 @@ class Registry(ABC):
 
     @property
     def immutable(self) -> bool:
-        """Returns the immutability of the registry"""
+        """Returns the value of the immutability variable."""
         return self._immutable
+
+    @immutable.setter
+    def immutable(self, immutable: bool) -> None:
+        """Sets the immutability of the Repo"""
+        self._immutable = immutable
 
     @abstractmethod
     def get(self, *args, **kwargs) -> pd.DataFrame:
@@ -102,20 +117,17 @@ class Registry(ABC):
     def remove(self, *args, **kwargs) -> None:
         """Removes an item from the registry."""
 
-    @abstractmethod
     def _load(self, force: bool = False) -> None:
         """Loads the registry into the instance variable."""
-        if not self._registry or force:
-            try:
-                self._registry = self._io.read(self._filepath, index_col=None)
-            except FileNotFoundError:
-                self._registry = pd.DataFrame()
-            except Exception as e:
-                msg = f"Exception of type {type(e)} occurred.\n{e}"
-                self._logger.error(msg)
-                raise e
+        try:
+            self._registry = self._io.read(self._filepath, index_col=None)
+        except FileNotFoundError:
+            self._registry = pd.DataFrame()
+        except Exception as e:
+            msg = f"Exception of type {type(e)} occurred.\n{e}"
+            self._logger.error(msg)
+            raise e
 
-    @abstractmethod
     def _save(self) -> None:
         """Saves the instance variable to file."""
         try:
@@ -125,10 +137,3 @@ class Registry(ABC):
             msg = f"Exception of type {type(e)} occurred.\n{e}"
             self._logger.error(msg)
             raise e
-
-    def _check_mutability(self) -> None:
-        """Raises exception if instance is immutable"""
-        if self._immutable:
-            msg = f"{self.__class__.__name__} instance is immutable."
-            self._logger.error(msg)
-            raise PermissionError(msg)
